@@ -20,9 +20,9 @@ const Home = () => {
             {/* <img src={LogoName} alt="company"/> */}
         </Logos>
         <Options>
-          <button style={{margin:"10px",borderRadius:"12px",fontSize:"17px",fontWeight:"bold"}}><Item>mercado.studio</Item></button>
-          <button style={{margin:"10px",borderRadius:"12px",fontSize:"17px",fontWeight:"bold"}}><Item>Team and Advisors</Item></button>
-          <button style={{margin:"10px",borderRadius:"12px",fontSize:"17px",fontWeight:"bold"}}><Item>Contact</Item></button>
+          <button style={{margin:"10px",fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none"}}><Item>mercado.studio</Item></button>
+          <button style={{margin:"10px",fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none"}}><Item>Team and Advisors</Item></button>
+          <button style={{margin:"10px",fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none"}}><Item>Contact</Item></button>
         
          
           
