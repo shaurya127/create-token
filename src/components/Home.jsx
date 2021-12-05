@@ -17,19 +17,20 @@ const Home = () => {
 
         <Logos>
             <img style={{marginRight:".5rem"}} src={Logo} alt="company"/>
-            <img src={LogoName} alt="company"/>
+            {/* <img src={LogoName} alt="company"/> */}
         </Logos>
         <Options>
+        <Item>mercado.studio</Item>
           <Item>Team and Advisors</Item>
-          <Item>NFT</Item>
-          <Item>Swap</Item>
-          <Item>Contact</Item>
-          <Item>Login</Item>
-          <Button>
+          {/* <Item>NFT</Item>
+          <Item>Swap</Item> */}
+          <Item >Contact</Item>
+          
+          {/* <Button>
             <Gradient style={{ background: "black", padding: "1px" }}>
               Connect Wallet
             </Gradient>
-          </Button>
+          </Button> */}
         </Options>
       </NavbarM>
       <Heading>
@@ -42,14 +43,19 @@ const Home = () => {
           CREATIVITY.DECENTRALISED
         </H1>
         <div style={{ display: "flex", marginTop: "1.5rem",flexWrap:"wrap",alignItems:"center",justifyContent:"center" }}>
-          <GradientButton>Buy SCRB token</GradientButton>
-          <GradientButton>Download wallpaper</GradientButton>
+          {/* <GradientButton>Buy SCRB token</GradientButton> */}
+          <GradientButton>Download Whitepaper</GradientButton>
         </div>
         <h3 style={{opacity:"0.5",borderBottom:"1px solid white"}}>Subscribe to our newsletter</h3>
       </Heading>
     </Container>
     <About/>
     <CardContainer/>
+
+
+
+  
+
     </>
   );
 };

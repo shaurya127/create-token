@@ -33,20 +33,20 @@ const NavBar = (props) => {
               <li>Team and Advisors</li>
             </a>
             <a href="google.com">
-              <li>NFT</li>
+              <li>merkado studio</li>
             </a>
-            <a href="google.com">
+            {/* <a href="google.com">
               <li>Swap</li>
-            </a>
+            </a> */}
             <a href="google.com">
               <li>Contact</li>
             </a>
-            <a href="https://erikterwan.com/" target="_blank" rel="noreferrer" >
+            {/* <a href="https://erikterwan.com/" target="_blank" rel="noreferrer" >
               <li>Login</li>
             </a>
             <Button style={{backgroundColor:"black",margin:"",padding:"0.5rem",width:"fit-content"}}>
               Connect Wallet
-            </Button>
+            </Button> */}
           </ul>
         </div>
         <div>

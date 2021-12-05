@@ -7,7 +7,7 @@ export const Container = styled.div`
 export const NavbarM = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 5rem;
+  height: 2rem;
   align-items: center;
   @media(max-width:1200px){
     display:none;
