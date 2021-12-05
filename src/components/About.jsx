@@ -5,13 +5,6 @@ import { TransparentDiv } from "./style/About";
 
 import {
   Container,
-  Logos,
-  Navbar,
-  Options,
-  Item,
-  Button,
-  Gradient,
-  Heading,
   H1,
   GradientButton,
 } from "./style/Home";

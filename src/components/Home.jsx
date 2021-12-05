@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 import About from "./About";
 import CardContainer from "./CardConatiner";
 import Logo from './style/images/logo.svg'
