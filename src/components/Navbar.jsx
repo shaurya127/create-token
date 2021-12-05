@@ -8,7 +8,7 @@ import "./style/Navbar.css";
 import Logo from "./style/images/logo.svg";
 import styled from "styled-components";
 
-import { Button } from "./style/Home";
+// import { Button } from "./style/Home";
 const Navdiv = styled.div`
   @media (min-width: 1200px) {
     display: none;

@@ -3,9 +3,9 @@ import React from "react";
 import About from "./About";
 import CardContainer from "./CardConatiner";
 import Logo from './style/images/logo.svg'
-import LogoName from './style/images/LogoName.svg'
+// import LogoName from './style/images/LogoName.svg'
 
-import { Container,Logos,NavbarM,Options,Item,Button,Gradient,Heading,H1,GradientButton } from "./style/Home";
+import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton } from "./style/Home";
 import Navbar from "./Navbar";
 
 const Home = () => {
