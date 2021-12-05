@@ -27,7 +27,7 @@ const NavBar = (props) => {
         className="drawer"
         drawerStyle={{ backgroundColor: "#1a1a1a" }}
         title={<div className="drawer-title">MENU</div>}
-        headerStyle={{ backgroundColor: "#1a1a1a", padding: 0, border: "none" }}
+        headerStyle={{ backgroundColor: "#1a1a1a", padding: 0, border: "none",marginBottom:"100px" }}
       >
         <Drawerroutes
           {...props}
