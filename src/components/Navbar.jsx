@@ -29,9 +29,12 @@ const NavBar = (props) => {
           <span></span>
 
           <ul id="menu">
+            <button>
             <a href="google.com">
               <li>Team and Advisors</li>
             </a>
+            </button>
+            
             <a href="google.com">
               <li>merkado studio</li>
             </a>

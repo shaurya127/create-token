@@ -20,11 +20,11 @@ const Home = () => {
             {/* <img src={LogoName} alt="company"/> */}
         </Logos>
         <Options>
-        <Item>mercado.studio</Item>
-          <Item>Team and Advisors</Item>
-          {/* <Item>NFT</Item>
-          <Item>Swap</Item> */}
-          <Item >Contact</Item>
+          <button style={{margin:"10px",borderRadius:"12px",fontSize:"17px",fontWeight:"bold"}}><Item>mercado.studio</Item></button>
+          <button style={{margin:"10px",borderRadius:"12px",fontSize:"17px",fontWeight:"bold"}}><Item>Team and Advisors</Item></button>
+          <button style={{margin:"10px",borderRadius:"12px",fontSize:"17px",fontWeight:"bold"}}><Item>Contact</Item></button>
+        
+         
           
           {/* <Button>
             <Gradient style={{ background: "black", padding: "1px" }}>
