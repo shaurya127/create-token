@@ -5,10 +5,13 @@ import CardContainer from "./CardConatiner";
 import Footer from "./Footer2";
 import Logo from './style/images/logo.svg'
 // import LogoName from './style/images/LogoName.svg'
+import '../App.css'
 
 import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton,Gradient,Button,connnectwallet } from "./style/Home";
 import Navbar from "./Navbar";
 import Finance from "./Finance";
+import CDapp from './CDapp'
+import Console from './Console'
 
 const Home = () => {
   return (
@@ -37,11 +40,11 @@ const Home = () => {
       </NavbarM>
       <Heading style={{marginTop:"5rem"}}>
         <H1 
-        style={{ fontSize: "5.5rem", lineHeight: "72px",fontStyle:"Earth Orbiter Bold" }}
+        style={{ fontSize: "5.5rem", lineHeight: "72px" }}
         >
-          CREATE <br /> <span style={{ fontSize: "4.1rem", lineHeight: "72px",fontStyle:"Earth Orbiter Bold" }}>PROTOCOL</span>
+          CREATE <br /> <span style={{ fontSize: "4.1rem", lineHeight: "72px" }}>PROTOCOL</span>
         </H1>
-        <H1 style={{ fontSize: "22px", lineHeight: "22px" }}>
+        <H1 style={{ fontSize: "22px", lineHeight: "22px" }} className="font-face-gm">
           CREATIVITY.DECENTRALISED
         </H1>
         <div style={{ display: "flex", marginTop: "1.5rem",flexWrap:"wrap",alignItems:"center",justifyContent:"center" }}>
@@ -53,6 +56,8 @@ const Home = () => {
     </Container>
     <About/>
     <Finance/>
+    <Console/>
+    <CDapp/>
     <CardContainer/>
 
     <br/>

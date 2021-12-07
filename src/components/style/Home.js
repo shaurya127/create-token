@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Container = styled.div`
   background-color: black;
   margin: 2rem;
@@ -51,7 +52,7 @@ export const H1 = styled.h1`
   font-size: 96px;
   line-height: 95px;
   text-align: right;
-  font-family: Earth Orbiter Bold;
+  font-family: EarthOrbiter;
   background: linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%);
   font-style: normal;
   font-weight: normal;

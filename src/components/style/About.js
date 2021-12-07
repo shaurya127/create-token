@@ -6,10 +6,14 @@ export const TransparentDiv = styled.div`
   justify-content: center;
   align-items: center;
   padding: 35px 40px;
-  width: 50%;
+  width: 25%;
   height:40%;
+<<<<<<< HEAD
   margin-top:2.5rem;
   
+=======
+
+>>>>>>> dfca64ba1e0dfb352f9cd44cc93e285511406a63
 
   background: url(.png),
     radial-gradient(
@@ -27,7 +31,7 @@ export const TransparentDiv = styled.div`
 
   @media(max-width:1000px){
     width:fit-content;
-    
+    width:80%;
     font:.5rem
   }
 `;

@@ -1,17 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-// import Logo3d from "./style/images/Group 1511.png";
+import Logo3d from "./style/images/Group 1511.png";
 
 import { Container, H1, GradientButton } from "./style/Home";
-import Rupee from "./style/images/rupee-dynamic-gradient.png";
-import Bag from "./style/images/money-bag-dynamic-gradient.png";
-import Purse from "./style/images/wallet-dynamic-gradient.png";
+import Thumb from "./style/images/thumb-up-dynamic-gradient.png";
+import Paint from "./style/images/paint-kit-dynamic-gradient.png";
+import Chat from "./style/images/chat-bubble-dynamic-gradient.png";
 
 const AboutWrapper = styled.div`
   margin-top: 1rem;
   display: flex;
   justify-content: space-evenly;
   flexwrap: wrap;
+
   @media (max-width: 1000px) {
     flex-direction: column;
     justify-content: center;
@@ -23,9 +24,10 @@ const ImageWrapper = styled.div`
   width: 50%;
   height: 50%;
   object-fit: cover;
+
   @media (max-width: 1000px) {
     width: 0rem;
-    height: 0;
+    height: 0rem;
     flex-direction:column;
     
     object-fit: cover;
@@ -35,6 +37,7 @@ const ImageWrapper = styled.div`
 const Desktop = styled.div`
 display: flex;
 width: 100%;
+
 justify-content: space-between;
 align-items: start;
 @media(max-width:1000px){
@@ -45,6 +48,7 @@ align-items: start;
 
 const Innerdiv = styled.div`
   display: flex;
+
   @media (max-width: 1000px) {
     flex-direction: column;
   }
@@ -59,6 +63,7 @@ const TransparentDiv = styled.div`
   width:25%;
   height: 30%;
   margin-top: 2.5rem;
+
   background: url(.png),
     radial-gradient(
       90.16% 143.01% at 15.32% 21.04%,
@@ -69,9 +74,12 @@ const TransparentDiv = styled.div`
   background-blend-mode: overlay, normal;
   filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
   backdrop-filter: blur(80px);
+
   border-radius: 12px;
+
   @media (max-width: 1000px) {
     width: 80%;
+
     font: 0.5rem;
   }
 `;
@@ -80,7 +88,7 @@ const TextWrapper = styled.div`
   width: 40%;
   display:flex;
   flex-direction:column;
-    justify-content:center; 
+    justify-content:center;   
   @media(max-width:1000px)
   {
     width:100%;
@@ -91,7 +99,7 @@ const TextWrapper = styled.div`
 const Colortext = styled.div`
   font-size: 96px;
   line-height: 95px;
-  
+
   font-family: Earth Orbiter Bold;
   background: linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%);
   font-style: normal;
@@ -101,6 +109,7 @@ const Colortext = styled.div`
   text-transform: capitalize;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
   margin-bottom: 0;
   @media(max-width:1000px){
     text-align:center;
@@ -121,7 +130,7 @@ const Center=styled.div`
 }`
 
 
-const Finance = () => {
+const CDapp = () => {
   return (
     <>
       <Container style={{ marginBottom: "1rem", paddingTop: "2rem" }}>
@@ -136,8 +145,8 @@ const Finance = () => {
         >
           <Topdiv style={{ width: "100%", display: "flex" }}>
             <TextWrapper>
-              <Colortext style={{ fontSize: " 4rem", lineHeight: "4rem",width:"100% ",fontFamily:"EarthOrbiter" }}>
-                FINANCE
+              <Colortext style={{ fontSize: "3rem", lineHeight: "4rem",width:"100%",fontFamily:"EarthOrbiter" }}>
+              CDAPP ECOSYSTEM
               </Colortext>
               <Colortext
                 style={{
@@ -150,11 +159,7 @@ const Finance = () => {
                   fontWeight: "normal",
                 }}
               >
-                Finance your dreams with our financing solutions. We provide a
-                variety of ways for you to explore and fund your goals. With
-                Create Potocol you have nothing to worry about, we will hand
-                hold you towards your dream with our decentralised financial
-                system
+                In our DApp ecosystem you can extend your NFT’s to other platforms/DApps/metaverse/games. You can create and share your work with whoever you like.
               </Colortext>
               <Center style={{display:"flex"}}>
               <GradientButton style={{marginLeft:"0", marginTop: "3rem" }}>
@@ -170,15 +175,15 @@ const Finance = () => {
                   
                 }}
               >
-                <img src={Bag} alt="coin" />
-                <img src={Rupee} alt="Moneypurse" />
+                <img src={Thumb} alt="coin" />
+                <img src={Paint} alt="Moneypurse" />
               </Desktop>
               <Desktop
                 style={{
                   justifyContent: "center",
                 }}
               >
-                <img src={Purse} alt="coingbag" />
+                <img src={Chat} alt="coingbag" />
               </Desktop>
             </ImageWrapper>
           </Topdiv>
@@ -204,9 +209,7 @@ const Finance = () => {
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3>CREATOR DEFI</h3>A Multi Chain Solution with Defi
-                  Principles and a Community friendly approach with creators at
-                  its forefront, and at its core.
+                  <h3>ROYALTY MANAGENENT</h3>Manage your royalty through smart contracts and manage your earnings
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -222,9 +225,7 @@ const Finance = () => {
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3>CREATOR FAN TOKENS</h3>A Multi Chain Solution with Defi
-                  Principles and a Community friendly approach with creators at
-                  its forefront, and at its core.
+                  <h3>MUZIX</h3>Our API for you to create content and share it with your fans
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -240,9 +241,7 @@ const Finance = () => {
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3>CREATE TO EARN ECONOMY</h3>A Multi Chain Solution with
-                  Defi Principles and a Community friendly approach with
-                  creators at its forefront, and at its core.
+                  <h3>FAN FUNDING</h3>Fans funding your dream projects! We are Decentralizing Crowd-sourcing!   
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -253,4 +252,4 @@ const Finance = () => {
   );
 };
 
-export default Finance;
+export default CDapp;
