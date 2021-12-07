@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Logo3d from "./style/images/Group 1511.png";
+// import Logo3d from "./style/images/Group 1511.png";
 
 import { Container, H1, GradientButton } from "./style/Home";
 import Rupee from "./style/images/rupee-dynamic-gradient.png";
