@@ -7,7 +7,6 @@ import 'font-awesome/css/font-awesome.min.css'
 import {
   Containertop,
   Row,
-  Column,
   FooterLink,
   Heading,
   ContainerInner,

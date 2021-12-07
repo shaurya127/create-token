@@ -7,7 +7,7 @@ import Logo from './style/images/logo.svg'
 // import LogoName from './style/images/LogoName.svg'
 import '../App.css'
 
-import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton,Gradient,Button,connnectwallet } from "./style/Home";
+import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton,Gradient,Button} from "./style/Home";
 import Navbar from "./Navbar";
 import Finance from "./Finance";
 import CDapp from './CDapp'

@@ -61,11 +61,11 @@ const CardContainer = () => {
         marginTop:"4rem"
       }}
     >
+        {/* <TransparentCard/> 
         <TransparentCard/> 
         <TransparentCard/> 
         <TransparentCard/> 
-        <TransparentCard/> 
-        <TransparentCard/> 
+        <TransparentCard/>  */}
 
     </div>
     </div>
