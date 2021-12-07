@@ -9,6 +9,7 @@ export const TransparentDiv = styled.div`
   width: 50%;
   height:40%;
   margin-top:2.5rem;
+  
 
   background: url(.png),
     radial-gradient(

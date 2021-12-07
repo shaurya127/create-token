@@ -58,7 +58,7 @@ const About = () => {
             />
           </ImageWrapper>
           <div style={{display:"flex",flexDirection:"column",width:"50%",alignItems:"center",justifyContent:"center"}}>
-          <TransparentDiv>
+          <TransparentDiv >
             <span
               style={{
                 fontStyle: "normal",
@@ -67,6 +67,7 @@ const About = () => {
                 lineHeight: "1.5rem",
                 fontFamily: "Century Gothic",
                 marginBottom: "1rem",
+                
               }}
             >
               A Multi Chain Solution with Defi Principles and a Community

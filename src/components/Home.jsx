@@ -2,10 +2,11 @@ import React from "react";
 // import styled from "styled-components";
 import About from "./About";
 import CardContainer from "./CardConatiner";
+import Footer from "./Footer2";
 import Logo from './style/images/logo.svg'
 // import LogoName from './style/images/LogoName.svg'
 
-import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton } from "./style/Home";
+import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton,Gradient,Button,connnectwallet } from "./style/Home";
 import Navbar from "./Navbar";
 import Finance from "./Finance";
 
@@ -27,11 +28,11 @@ const Home = () => {
         
          
           
-          {/* <Button>
-            <Gradient style={{ background: "black", padding: "1px" }}>
+          <Button >
+            <Gradient style={{ background: "black", padding: "8px 20px",borderRadius: "26px" ,backgroundColor:"#000000"}}>
               Connect Wallet
             </Gradient>
-          </Button> */}
+          </Button>
         </Options>
       </NavbarM>
       <Heading style={{marginTop:"5rem"}}>
@@ -54,10 +55,15 @@ const Home = () => {
     <Finance/>
     <CardContainer/>
 
-
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 
   
-
+    <Footer/>
     </>
   );
 };
