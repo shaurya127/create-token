@@ -209,9 +209,7 @@ const CDapp = () => {
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3>CREATOR DEFI</h3>A Multi Chain Solution with Defi
-                  Principles and a Community friendly approach with creators at
-                  its forefront, and at its core.
+                  <h3>ROYALTY MANAGENENT</h3>Manage your royalty through smart contracts and manage your earnings
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -227,9 +225,7 @@ const CDapp = () => {
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3>CREATOR FAN TOKENS</h3>A Multi Chain Solution with Defi
-                  Principles and a Community friendly approach with creators at
-                  its forefront, and at its core.
+                  <h3>MUZIX</h3>Our API for you to create content and share it with your fans
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -245,9 +241,7 @@ const CDapp = () => {
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3>CREATE TO EARN ECONOMY</h3>A Multi Chain Solution with
-                  Defi Principles and a Community friendly approach with
-                  creators at its forefront, and at its core.
+                  <h3>FAN FUNDING</h3>Fans funding your dream projects! We are Decentralizing Crowd-sourcing!   
                 </span>
               </Innerdiv>
             </TransparentDiv>
