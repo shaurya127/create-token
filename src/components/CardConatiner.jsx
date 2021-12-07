@@ -10,15 +10,21 @@ import React from "react";
 import FounderCard from "./FounderCard";
 import TransparentCard from "./TransparentCard";
 
+import { Heading,H1 } from "./style/Home";
+
 const CardContainer = () => {
   return (
-    <>
+    <div style={{marginTop:"4rem"}}>
+      
+    <Heading style={{padding:"0"}}><H1 style={{fontSize: "68px", lineHeight: "67px",marginBottom:"2rem"}}>MEET OUR TEAM</H1></Heading>
     <div
       style={{
         display: "flex",
         alignItems: "center",
         justifyContent: "space-evenly",
-        flexWrap:"wrap"
+        flexWrap:"wrap",
+        width:"100%",
+        marginTop:"4rem"
       }}
     >
         <FounderCard/> 
@@ -32,7 +38,10 @@ const CardContainer = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-evenly",
-        flexWrap:"wrap"
+        flexWrap:"wrap",
+        width:"100%",
+        marginTop:"4rem"
+
       }}
     >
         <TransparentCard/> 
@@ -47,7 +56,9 @@ const CardContainer = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-evenly",
-        flexWrap:"wrap"
+        flexWrap:"wrap",
+        width:"100%",
+        marginTop:"4rem"
       }}
     >
         <TransparentCard/> 
@@ -57,7 +68,7 @@ const CardContainer = () => {
         <TransparentCard/> 
 
     </div>
-    </>
+    </div>
   );
 };
 

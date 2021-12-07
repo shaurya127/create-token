@@ -7,6 +7,7 @@ import Logo from './style/images/logo.svg'
 
 import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton } from "./style/Home";
 import Navbar from "./Navbar";
+import Finance from "./Finance";
 
 const Home = () => {
   return (
@@ -33,7 +34,7 @@ const Home = () => {
           </Button> */}
         </Options>
       </NavbarM>
-      <Heading>
+      <Heading style={{marginTop:"5rem"}}>
         <H1 
         style={{ fontSize: "5.5rem", lineHeight: "72px",fontStyle:"Earth Orbiter Bold" }}
         >
@@ -50,6 +51,7 @@ const Home = () => {
       </Heading>
     </Container>
     <About/>
+    <Finance/>
     <CardContainer/>
 
 

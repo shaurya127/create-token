@@ -6,7 +6,7 @@ export const TransparentDiv = styled.div`
   justify-content: center;
   align-items: center;
   padding: 35px 40px;
-  width: 20%;
+  width: 50%;
   height:40%;
   margin-top:2.5rem;
 
@@ -26,5 +26,7 @@ export const TransparentDiv = styled.div`
 
   @media(max-width:1000px){
     width:fit-content;
+    
+    font:.5rem
   }
 `;
