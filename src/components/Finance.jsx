@@ -144,7 +144,7 @@ const Finance = () => {
         >
           <Topdiv style={{ width: "100%", display: "flex" }}>
             <TextWrapper>
-              <Colortext style={{ fontSize: " 4rem", lineHeight: "4rem",width:"max-content" }}>
+              <Colortext style={{ fontSize: " 4rem", lineHeight: "4rem",width:"max-content",fontFamily:"EarthOrbiter" }}>
                 FINANCE
               </Colortext>
               <Colortext

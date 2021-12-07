@@ -144,7 +144,7 @@ const CDapp = () => {
         >
           <Topdiv style={{ width: "100%", display: "flex" }}>
             <TextWrapper>
-              <Colortext style={{ fontSize: "3rem", lineHeight: "4rem",width:"1005", }}>
+              <Colortext style={{ fontSize: "3rem", lineHeight: "4rem",width:"100%",fontFamily:"EarthOrbiter" }}>
               CDAPP ECOSYSTEM
               </Colortext>
               <Colortext

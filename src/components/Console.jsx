@@ -165,7 +165,7 @@ const Console = () => {
               </Desktop>
             </ImageWrapper>
             <TextWrapper>
-              <Colortext style={{ fontSize: "3rem", lineHeight: "4rem",width:"1005", }}>
+              <Colortext style={{ fontSize: "4rem", lineHeight: "4rem",width:"100%",fontFamily:"EarthOrbiter" }}>
               CONSOLE
               </Colortext>
               <Colortext
