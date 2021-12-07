@@ -3,9 +3,9 @@ import styled from "styled-components";
 import Logo3d from "./style/images/Group 1511.png";
 
 import { Container, H1, GradientButton } from "./style/Home";
-import Rupee from "./style/images/rupee-dynamic-gradient.png";
-import Bag from "./style/images/money-bag-dynamic-gradient.png";
-import Purse from "./style/images/wallet-dynamic-gradient.png";
+import Thumb from "./style/images/thumb-up-dynamic-gradient.png";
+import Paint from "./style/images/paint-kit-dynamic-gradient.png";
+import Chat from "./style/images/chat-bubble-dynamic-gradient.png";
 
 const AboutWrapper = styled.div`
   margin-top: 1rem;
@@ -27,7 +27,7 @@ const ImageWrapper = styled.div`
 
   @media (max-width: 1000px) {
     width: 0rem;
-    height: 0;
+    height: 0rem;
     flex-direction:column;
     
     object-fit: cover;
@@ -88,7 +88,7 @@ const TextWrapper = styled.div`
   width: 50%;
   display:flex;
   flex-direction:column;
-    justify-content:center; 
+    justify-content:center;   
   @media(max-width:1000px)
   {
     width:100%;
@@ -129,7 +129,7 @@ const Center=styled.div`
 }`
 
 
-const Finance = () => {
+const CDapp = () => {
   return (
     <>
       <Container style={{ marginBottom: "1rem", paddingTop: "2rem" }}>
@@ -144,12 +144,12 @@ const Finance = () => {
         >
           <Topdiv style={{ width: "100%", display: "flex" }}>
             <TextWrapper>
-              <Colortext style={{ fontSize: " 4rem", lineHeight: "4rem",width:"max-content" }}>
-                FINANCE
+              <Colortext style={{ fontSize: "3rem", lineHeight: "4rem",width:"1005", }}>
+              CDAPP ECOSYSTEM
               </Colortext>
               <Colortext
                 style={{
-                  width: "fit-content",
+                  width: "1005",
                   marginTop: "2rem",
                   fontSize: "1.5rem",
                   lineHeight: "2rem",
@@ -158,11 +158,7 @@ const Finance = () => {
                   fontWeight: "normal",
                 }}
               >
-                Finance your dreams with our financing solutions. We provide a
-                variety of ways for you to explore and fund your goals. With
-                Create Potocol you have nothing to worry about, we will hand
-                hold you towards your dream with our decentralised financial
-                system
+                In our DApp ecosystem you can extend your NFT’s to other platforms/DApps/metaverse/games. You can create and share your work with whoever you like.
               </Colortext>
               <Center style={{display:"flex"}}>
               <GradientButton style={{marginLeft:"0", marginTop: "3rem" }}>
@@ -178,15 +174,15 @@ const Finance = () => {
                   
                 }}
               >
-                <img src={Bag} alt="coin" />
-                <img src={Rupee} alt="Moneypurse" />
+                <img src={Thumb} alt="coin" />
+                <img src={Paint} alt="Moneypurse" />
               </Desktop>
               <Desktop
                 style={{
                   justifyContent: "center",
                 }}
               >
-                <img src={Purse} alt="coingbag" />
+                <img src={Chat} alt="coingbag" />
               </Desktop>
             </ImageWrapper>
           </Topdiv>
@@ -261,4 +257,4 @@ const Finance = () => {
   );
 };
 
-export default Finance;
+export default CDapp;

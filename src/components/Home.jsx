@@ -8,6 +8,8 @@ import Logo from './style/images/logo.svg'
 import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton } from "./style/Home";
 import Navbar from "./Navbar";
 import Finance from "./Finance";
+import CDapp from './CDapp'
+import Console from './Console'
 
 const Home = () => {
   return (
@@ -52,6 +54,8 @@ const Home = () => {
     </Container>
     <About/>
     <Finance/>
+    <Console/>
+    <CDapp/>
     <CardContainer/>
 
 

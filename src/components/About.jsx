@@ -15,6 +15,7 @@ margin-top:1rem;
 display:flex;
 justify-content:space-evenly;
 flexWrap:wrap;
+flex-direction:row;
 
 @media(max-width:1000px){
   flex-direction:column;
@@ -24,12 +25,13 @@ flexWrap:wrap;
 `;
 
 const ImageWrapper=styled.div`
-width:50%;
+width:35%;
 height:50%;
 object-fit:contain;
+margin-top:5rem;
 
 @media(max-width:1000px){
-  width:20rem;
+  width:80%;
   height:15rem;
 }
 `
@@ -39,26 +41,17 @@ const About = () => {
   return (
     <>
       <Container style={{marginBottom:"1rem",paddingTop:"2rem"}}>
-        <H1 style={{ fontSize: "68px", lineHeight: "67px" }}>ABOUT CREATE</H1>
+        {/* <H1 style={{ fontSize: "68px", lineHeight: "67px" }}>ABOUT CREATE</H1> */}
         <AboutWrapper
           style={{
             marginTop: "2rem",
             display: "flex",
             alignItems: "center", 
-            justifyContent: "space-evenly",
+            justifyContent: "center",
             flexWrap: "wrap",
           }}
         >
-          <ImageWrapper>
-            <img
-              style={{ width: "100%", height: "100%", objectFit: "contain",background: "rgba(0, 0, 0, 1)",
-            }}
-              src={Logo3d}
-              alt="3dimage"
-            />
-          </ImageWrapper>
-          <div style={{display:"flex",flexDirection:"column",width:"50%",alignItems:"center",justifyContent:"center"}}>
-          <TransparentDiv>
+          <TransparentDiv style={{}}>
             <span
               style={{
                 fontStyle: "normal",
@@ -74,7 +67,17 @@ const About = () => {
             </span>
             <GradientButton>Earn Create</GradientButton>
           </TransparentDiv>
-          <TransparentDiv >
+          <ImageWrapper >
+            <img
+              style={{ width: "100%", height: "100%", objectFit: "contain",background: "rgba(0, 0, 0, 1)",
+            }}
+              src={Logo3d}
+              alt="3dimage"
+            />
+          </ImageWrapper>
+          
+          
+          <TransparentDiv style={{}}>
             <span
               style={{
                 fontStyle: "normal",
@@ -91,7 +94,7 @@ const About = () => {
             <GradientButton>Earn Create</GradientButton>
           </TransparentDiv>
 
-          </div>
+          
           
         </AboutWrapper>
       </Container>
