@@ -85,7 +85,7 @@ const TransparentDiv = styled.div`
 `;
 
 const TextWrapper = styled.div`
-  width: 50%;
+  width: 40%;
   display:flex;
   flex-direction:column;
     justify-content:center; 
@@ -99,7 +99,7 @@ const TextWrapper = styled.div`
 const Colortext = styled.div`
   font-size: 96px;
   line-height: 95px;
-
+  
   font-family: Earth Orbiter Bold;
   background: linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%);
   font-style: normal;
@@ -117,6 +117,7 @@ const Colortext = styled.div`
 `;
 
 const Topdiv=styled.div`
+justify-content:space-between;
 @media(max-width:1000px){
   flex-direction:column;
   justify-content:center;
@@ -144,12 +145,12 @@ const Finance = () => {
         >
           <Topdiv style={{ width: "100%", display: "flex" }}>
             <TextWrapper>
-              <Colortext style={{ fontSize: " 4rem", lineHeight: "4rem",width:"max-content",fontFamily:"EarthOrbiter" }}>
+              <Colortext style={{ fontSize: " 4rem", lineHeight: "4rem",width:"100% ",fontFamily:"EarthOrbiter" }}>
                 FINANCE
               </Colortext>
               <Colortext
                 style={{
-                  width: "fit-content",
+                  width: "100%",
                   marginTop: "2rem",
                   fontSize: "1.5rem",
                   lineHeight: "2rem",

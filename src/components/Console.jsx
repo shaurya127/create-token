@@ -170,7 +170,7 @@ const Console = () => {
               </Colortext>
               <Colortext
                 style={{
-                  width: "1005",
+                  width: "100%",
                   marginTop: "2rem",
                   fontSize: "1.5rem",
                   lineHeight: "2rem",

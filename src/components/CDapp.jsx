@@ -85,7 +85,7 @@ const TransparentDiv = styled.div`
 `;
 
 const TextWrapper = styled.div`
-  width: 50%;
+  width: 40%;
   display:flex;
   flex-direction:column;
     justify-content:center;   
@@ -117,6 +117,7 @@ const Colortext = styled.div`
 `;
 
 const Topdiv=styled.div`
+justify-content:space-between;
 @media(max-width:1000px){
   flex-direction:column;
   justify-content:center;
@@ -149,7 +150,7 @@ const CDapp = () => {
               </Colortext>
               <Colortext
                 style={{
-                  width: "1005",
+                  width: "100%",
                   marginTop: "2rem",
                   fontSize: "1.5rem",
                   lineHeight: "2rem",
