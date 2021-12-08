@@ -118,6 +118,22 @@ const Colortext = styled.div`
   }
 `;
 
+const Colortext1 = styled.div`
+  background: linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%);
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Century Gothic";
+  font-weight: 600;
+  font-size: 1.3rem;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  @media (max-width: 1000px) {
+    text-align: center;
+  }
+`;
+
 const Topdiv = styled.div`
   justify-content: space-between;
   @media (max-width: 1000px) {
@@ -216,9 +232,27 @@ height: "228px",}} src={Chat} alt="coingbag" />
                     fontFamily: "Century Gothic",
                     marginBottom: "1rem",
                   }}
-                >
-                  <h3>ROYALTY MANAGENENT</h3>Manage your royalty through smart
-                  contracts and manage your earnings
+                ><Colortext1>
+                  <h3>ROYALTY MANAGENENT</h3><span style={{fontSize:"1.3rem"}}>Manage your royalty through smart
+                  contracts and manage your earnings</span></Colortext1>
+                </span>
+              </Innerdiv>
+            </TransparentDiv>
+            <TransparentDiv>
+              <Innerdiv>
+                <span
+                  style={{
+                    fontStyle: "normal",
+                    fontWeight: "bold",
+
+                    lineHeight: "1.5rem",
+                    fontFamily: "Century Gothic",
+                    marginBottom: "2rem",
+                    marginTop:".5rem"
+                  }}
+                ><Colortext1>
+                  <h3>MUZIX</h3><span style={{fontSize:"1.3rem"}}></span>Our API for you to create content and share it
+                  with your fans</Colortext1>
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -233,26 +267,9 @@ height: "228px",}} src={Chat} alt="coingbag" />
                     fontFamily: "Century Gothic",
                     marginBottom: "1rem",
                   }}
-                >
-                  <h3>MUZIX</h3>Our API for you to create content and share it
-                  with your fans
-                </span>
-              </Innerdiv>
-            </TransparentDiv>
-            <TransparentDiv>
-              <Innerdiv>
-                <span
-                  style={{
-                    fontStyle: "normal",
-                    fontWeight: "bold",
-
-                    lineHeight: "1.5rem",
-                    fontFamily: "Century Gothic",
-                    marginBottom: "1rem",
-                  }}
-                >
-                  <h3>FAN FUNDING</h3>Fans funding your dream projects! We are
-                  Decentralizing Crowd-sourcing!
+                ><Colortext1>
+                  <h3>FAN FUNDING</h3><span style={{fontSize:"1.3rem"}}>Fans funding your dream projects! We are
+                  Decentralizing Crowd-sourcing!</span></Colortext1>
                 </span>
               </Innerdiv>
             </TransparentDiv>

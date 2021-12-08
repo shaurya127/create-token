@@ -8,7 +8,7 @@ import Bag from "./style/images/money-bag-dynamic-gradient.png";
 import Purse from "./style/images/wallet-dynamic-gradient.png";
 
 const AboutWrapper = styled.div`
-  margin-top:5rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-evenly;
   flexwrap: wrap;
@@ -26,21 +26,21 @@ const ImageWrapper = styled.div`
   @media (max-width: 1000px) {
     width: 0rem;
     height: 0;
-    flex-direction:column;
-    
+    flex-direction: column;
+
     object-fit: cover;
   }
 `;
 
 const Desktop = styled.div`
-display: flex;
-width: 100%;
-justify-content: space-between;
-align-items: start;
-@media(max-width:1000px){
-  display:none;
-  visibility:hidden;
-}
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: start;
+  @media (max-width: 1000px) {
+    display: none;
+    visibility: hidden;
+  }
 `;
 
 const Innerdiv = styled.div`
@@ -56,7 +56,7 @@ const TransparentDiv = styled.div`
   justify-content: center;
   align-items: center;
   padding: 35px 40px;
-  width:25%;
+  width: 25%;
   height: 30%;
   margin-top: 2.5rem;
   background: url(.png),
@@ -70,11 +70,8 @@ const TransparentDiv = styled.div`
   filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
   backdrop-filter: blur(80px);
   border-radius: 12px;
-<<<<<<< HEAD
-  border:2px solid white;
-  margin:5px;
-=======
->>>>>>> 8904b3eb35e59786bfd245057b9de8c16b342cde
+  border: 2px solid white;
+  margin: 5px;
   @media (max-width: 1000px) {
     width: 80%;
     font: 0.5rem;
@@ -83,53 +80,69 @@ const TransparentDiv = styled.div`
 
 const TextWrapper = styled.div`
   width: 40%;
-  display:flex;
-  flex-direction:column;
-    justify-content:center; 
-  @media(max-width:1000px)
-  {
-    width:100%;
-    justify-content:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 1000px) {
+    width: 100%;
+    justify-content: center;
   }
 `;
 
 const Colortext = styled.div`
   font-size: 96px;
   line-height: 95px;
-  
+
   font-family: Earth Orbiter Bold;
   background: linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%);
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 22px;
-  
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;
-  @media(max-width:1000px){
-    text-align:center;
+  @media (max-width: 1000px) {
+    text-align: center;
+  }
+`;
+const Colortext1 = styled.div`
+  background: linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%);
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Century Gothic";
+  font-weight: 600;
+  font-size: 1.3rem;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  @media (max-width: 1000px) {
+    text-align: center;
   }
 `;
 
-const Topdiv=styled.div`
-justify-content:space-between;
-@media(max-width:1000px){
-  flex-direction:column;
-  justify-content:center;
-}
-`
+const Topdiv = styled.div`
+  justify-content: space-between;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+`;
 
-const Center=styled.div`
-@media(max-width:1000px){
-  justify-content:center;
-}`
-
+const Center = styled.div`
+  @media (max-width: 1000px) {
+    justify-content: center;
+  }
+`;
 
 const Finance = () => {
   return (
     <>
-      <Container style={{ marginBottom: "1rem", paddingTop: "2rem",marginTop:"4rem" }}>
+      <Container
+        style={{ marginBottom: "1rem", paddingTop: "2rem", marginTop: "4rem" }}
+      >
         <AboutWrapper
           style={{
             marginTop: "2rem",
@@ -141,7 +154,14 @@ const Finance = () => {
         >
           <Topdiv style={{ width: "100%", display: "flex" }}>
             <TextWrapper>
-              <Colortext style={{ fontSize: " 4rem", lineHeight: "4rem",width:"100% ",fontFamily:"EarthOrbiter" }}>
+              <Colortext
+                style={{
+                  fontSize: " 4rem",
+                  lineHeight: "4rem",
+                  width: "100% ",
+                  fontFamily: "EarthOrbiter",
+                }}
+              >
                 FINANCE
               </Colortext>
               <Colortext
@@ -161,32 +181,43 @@ const Finance = () => {
                 hold you towards your dream with our decentralised financial
                 system
               </Colortext>
-              <Center style={{display:"flex"}}>
-              <GradientButton style={{marginLeft:"0", marginTop: "3rem" }}>
-                Explore
-              </GradientButton>
+              <Center style={{ display: "flex" }}>
+                <GradientButton style={{ marginLeft: "0", marginTop: "3rem" }}>
+                  Explore
+                </GradientButton>
               </Center>
-              
             </TextWrapper>
             <ImageWrapper style={{ alignItems: "start" }}>
-              <Desktop
-                style={{
-                  
-                  
-                }}
-              >
-                <img style={{width: "228px",
-height: "228px",}} src={Bag} alt="coin" />
-                <img style={{width: "228px",
-height: "228px",objectFit:"cover"}} src={Rupee} alt="Moneypurse" />
+              <Desktop style={{}}>
+                <img
+                  style={{ width: "228px", height: "228px" }}
+                  src={Bag}
+                  alt="coin"
+                />
+                <img
+                  style={{
+                    width: "228px",
+                    height: "228px",
+                    objectFit: "cover",
+                  }}
+                  src={Rupee}
+                  alt="Moneypurse"
+                />
               </Desktop>
               <Desktop
                 style={{
                   justifyContent: "center",
                 }}
               >
-                <img  style={{width: "228px",
-height: "228px",objectFit:"cover"}} src={Purse} alt="coingbag" />
+                <img
+                  style={{
+                    width: "228px",
+                    height: "228px",
+                    objectFit: "cover",
+                  }}
+                  src={Purse}
+                  alt="coingbag"
+                />
               </Desktop>
             </ImageWrapper>
           </Topdiv>
@@ -212,10 +243,24 @@ height: "228px",objectFit:"cover"}} src={Purse} alt="coingbag" />
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3 style={{color: "linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%)"}}>CREATOR DEFI</h3>
-                  <span style={{color: "linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%)"}}>A Multi Chain Solution with Defi
-                  Principles and a Community friendly approach with creators at
-                  its forefront, and at its core.</span>
+                  <Colortext1>
+                    <h3
+                      style={{
+                        
+                      }}
+                    >
+                      CREATOR DEFI
+                    </h3>
+                    <span
+                      style={{
+                        fontSize:"1.2rem"
+                      }}
+                    >
+                      A Multi Chain Solution with Defi Principles and a
+                      Community friendly approach with creators at its
+                      forefront, and at its core.
+                    </span>
+                  </Colortext1>
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -231,9 +276,11 @@ height: "228px",objectFit:"cover"}} src={Purse} alt="coingbag" />
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3>CREATOR FAN TOKENS</h3>A Multi Chain Solution with Defi
-                  Principles and a Community friendly approach with creators at
-                  its forefront, and at its core.
+                  <Colortext1>
+                    <h3>CREATOR FAN TOKENS</h3><span style={{fontSize:"1.2rem"}}>A Multi Chain Solution with Defi
+                    Principles and a Community friendly approach with creators
+                    at its forefront, and at its core.</span>
+                  </Colortext1>
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -246,12 +293,16 @@ height: "228px",objectFit:"cover"}} src={Purse} alt="coingbag" />
 
                     lineHeight: "1.5rem",
                     fontFamily: "Century Gothic",
-                    marginBottom: "1rem",
+                    marginBottom:"1rem"
+                    
                   }}
                 >
-                  <h3>CREATE TO EARN ECONOMY</h3>A Multi Chain Solution with
-                  Defi Principles and a Community friendly approach with
-                  creators at its forefront, and at its core.
+                  <Colortext1>
+                    <h3>CREATE TO EARN ECONOMY</h3>
+                    <span style={{fontSize:"1.2rem"}}>A Multi Chain Solution with
+                    Defi Principles and a Community friendly approach with
+                    creators at its forefront, and at its core.</span>
+                  </Colortext1>
                 </span>
               </Innerdiv>
             </TransparentDiv>

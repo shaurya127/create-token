@@ -69,7 +69,7 @@ export const H1 = styled.h1`
 
 export const GradientButton = styled.div`
   color: white;
-  border-radius: 2rem;
+  border-radius:5px;
   width: 10rem;
   text-align: center;
   background: linear-gradient(
@@ -79,7 +79,7 @@ export const GradientButton = styled.div`
     #a53db6 49.56%,
     #cb3f59 93.2%
   );
-  border-radius: 16px;
+  
   padding: 0.5rem;
   font-weight: bold;
   font-size: 16px;

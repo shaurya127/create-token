@@ -36,6 +36,7 @@ const Home = () => {
               Connect Wallet
             </Gradient>
           </Button>
+          <GradientButton style={{width:"fit-content"}}>Download Whitepaper</GradientButton>
         </Options>
       </NavbarM>
       <Heading style={{marginTop:"5rem"}}>

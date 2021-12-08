@@ -23,6 +23,25 @@ flex-direction:row;
 }
 `;
 
+const Colortext1 = styled.div`
+
+  
+font-family: "Century Gothic";
+  background: linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%);
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 600;
+font-size: 1.4rem;
+
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  @media(max-width:1000px){
+    text-align:center;
+  }
+`;
+
 const ImageWrapper=styled.div`
 width:45%;
 height:50%;
@@ -59,8 +78,8 @@ const About = () => {
                 fontFamily: "Century Gothic",
                 marginBottom: "1rem",
               }}
-            >
-              <h3>CREATE TOKEN</h3>The Currency of your Creativity. Convert your creativity into currency For the first time ever.
+            ><Colortext1>
+              <h3>CREATE TOKEN</h3><span style={{fontSize:"1.2rem"}}>The Currency of your Creativity. Convert your creativity into currency For the first time ever.</span></Colortext1>
             </span>
             <GradientButton style={{marginLeft:"0"}}>Explore</GradientButton>
           </TransparentDiv>
@@ -84,8 +103,9 @@ const About = () => {
                 fontFamily: "Century Gothic",
                 marginBottom: "1rem",
               }}
-            >
-              A Multi Chain Solution with Defi Principles and a Community friendly approach with creators at its forefront, and at its core.
+            ><Colortext1>
+            <span  style={{fontSize:"1.2rem"}}>
+              A Multi Chain Solution with Defi Principles and a Community friendly approach with creators at its forefront, and at its core.</span></Colortext1>
             </span>
             <GradientButton style={{marginLeft:"0"}}>Earn Create</GradientButton>
           </TransparentDiv>

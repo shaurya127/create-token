@@ -8,7 +8,7 @@ display:flex;
 align-items:center;
 justify-content:center;
 flex-direction:column;
-background:#211642;
+background:rgba(13, 13, 43, 1);
 padding-bottom:3rem;
 opacity:0.6;
 `
