@@ -23,7 +23,7 @@ export const Options = styled.div`
 `;
 export const Button = styled.div`
   color: white;
-  border-radius: 1rem;
+  border-radius: 20px;
 `;
 export const Gradient = styled.div`
   border: 4px solid;
@@ -69,7 +69,7 @@ export const H1 = styled.h1`
 
 export const GradientButton = styled.div`
   color: white;
-  border-radius: 1rem;
+  border-radius: 2rem;
   width: 10rem;
   text-align: center;
   background: linear-gradient(
@@ -79,7 +79,7 @@ export const GradientButton = styled.div`
     #a53db6 49.56%,
     #cb3f59 93.2%
   );
-  border-radius: 6px;
+  border-radius: 16px;
   padding: 0.5rem;
   font-weight: bold;
   font-size: 16px;
@@ -87,3 +87,4 @@ export const GradientButton = styled.div`
   margin: 1rem;
   cursor:pointer;
 `;
+

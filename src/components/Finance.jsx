@@ -12,7 +12,6 @@ const AboutWrapper = styled.div`
   display: flex;
   justify-content: space-evenly;
   flexwrap: wrap;
-
   @media (max-width: 1000px) {
     flex-direction: column;
     justify-content: center;
@@ -24,7 +23,6 @@ const ImageWrapper = styled.div`
   width: 50%;
   height: 50%;
   object-fit: cover;
-
   @media (max-width: 1000px) {
     width: 0rem;
     height: 0;
@@ -37,7 +35,6 @@ const ImageWrapper = styled.div`
 const Desktop = styled.div`
 display: flex;
 width: 100%;
-
 justify-content: space-between;
 align-items: start;
 @media(max-width:1000px){
@@ -48,7 +45,6 @@ align-items: start;
 
 const Innerdiv = styled.div`
   display: flex;
-
   @media (max-width: 1000px) {
     flex-direction: column;
   }
@@ -63,7 +59,6 @@ const TransparentDiv = styled.div`
   width:25%;
   height: 30%;
   margin-top: 2.5rem;
-
   background: url(.png),
     radial-gradient(
       90.16% 143.01% at 15.32% 21.04%,
@@ -74,13 +69,14 @@ const TransparentDiv = styled.div`
   background-blend-mode: overlay, normal;
   filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
   backdrop-filter: blur(80px);
-
   border-radius: 12px;
+<<<<<<< HEAD
   border:2px solid white;
   margin:5px;
+=======
+>>>>>>> 8904b3eb35e59786bfd245057b9de8c16b342cde
   @media (max-width: 1000px) {
     width: 80%;
-
     font: 0.5rem;
   }
 `;
@@ -110,7 +106,6 @@ const Colortext = styled.div`
   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   margin-bottom: 0;
   @media(max-width:1000px){
     text-align:center;

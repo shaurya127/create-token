@@ -14,6 +14,7 @@ import { Heading, H1 } from "./style/Home";
 
 const CardContainer = () => {
   return (
+<<<<<<< HEAD
     <div style={{ marginTop: "4rem" }}>
       <Heading style={{ padding: "0" }}>
         <H1
@@ -102,6 +103,62 @@ const CardContainer = () => {
           <TransparentCard />
         </div>
       </div>
+=======
+    <div style={{marginTop:"4rem"}}>
+      
+    <Heading style={{padding:"0"}}><H1 style={{fontSize: "68px", lineHeight: "67px",marginBottom:"2rem"}}>MEET OUR TEAM</H1></Heading>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-evenly",
+        flexWrap:"wrap",
+        width:"100%",
+        marginTop:"4rem"
+      }}
+    >
+        <FounderCard/> 
+        <FounderCard/> 
+        <FounderCard/> 
+        <FounderCard/> 
+
+    </div>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-evenly",
+        flexWrap:"wrap",
+        width:"100%",
+        marginTop:"4rem"
+
+      }}
+    >
+        <TransparentCard/> 
+        <TransparentCard/> 
+        <TransparentCard/> 
+        <TransparentCard/> 
+        <TransparentCard/> 
+
+    </div>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-evenly",
+        flexWrap:"wrap",
+        width:"100%",
+        marginTop:"4rem"
+      }}
+    >
+        {/* <TransparentCard/> 
+        <TransparentCard/> 
+        <TransparentCard/> 
+        <TransparentCard/> 
+        <TransparentCard/>  */}
+
+    </div>
+>>>>>>> 8904b3eb35e59786bfd245057b9de8c16b342cde
     </div>
   );
 };

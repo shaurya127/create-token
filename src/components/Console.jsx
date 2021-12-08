@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Logo3d from "./style/images/Group 1511.png";
+// import Logo3d from "./style/images/Group 1511.png";
 
-import { Container, H1, GradientButton } from "./style/Home";
+import { Container, GradientButton } from "./style/Home";
 import Key from "./style/images/key.png";
 import Notebook from "./style/images/notebook.png";
 import Heart from "./style/images/notify-heart-dynamic-gradient.png";

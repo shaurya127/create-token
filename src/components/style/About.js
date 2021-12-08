@@ -8,8 +8,17 @@ export const TransparentDiv = styled.div`
   padding: 35px 40px;
   width: 20%;
   height:40%;
+<<<<<<< HEAD
   border:2px solid white;
   
+=======
+<<<<<<< HEAD
+  margin-top:2.5rem;
+  
+=======
+
+>>>>>>> dfca64ba1e0dfb352f9cd44cc93e285511406a63
+>>>>>>> 8904b3eb35e59786bfd245057b9de8c16b342cde
 
   background: url(.png),
     radial-gradient(

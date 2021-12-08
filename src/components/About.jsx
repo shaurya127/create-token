@@ -16,7 +16,6 @@ display:flex;
 justify-content:space-evenly;
 flexWrap:wrap;
 flex-direction:row;
-
 @media(max-width:1000px){
   flex-direction:column;
   justify-content:center;
@@ -29,7 +28,6 @@ width:45%;
 height:50%;
 object-fit:contain;
 margin-top:5rem;
-
 @media(max-width:1000px){
   width:80%;
   height:15rem;
