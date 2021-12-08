@@ -4,11 +4,12 @@ export const TransparentDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   padding: 35px 40px;
-  width: 25%;
+  width: 20%;
   height:40%;
-
+  border:2px solid white;
+  
 
   background: url(.png),
     radial-gradient(
@@ -26,7 +27,9 @@ export const TransparentDiv = styled.div`
 
   @media(max-width:1000px){
     width:fit-content;
-    width:80%;
+    width:70%;
+    justify-content: center;
+  align-items: center;
     font:.5rem
   }
 `;

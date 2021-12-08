@@ -8,7 +8,7 @@ import Bag from "./style/images/money-bag-dynamic-gradient.png";
 import Purse from "./style/images/wallet-dynamic-gradient.png";
 
 const AboutWrapper = styled.div`
-  margin-top: 1rem;
+  margin-top:5rem;
   display: flex;
   justify-content: space-evenly;
   flexwrap: wrap;
@@ -76,7 +76,8 @@ const TransparentDiv = styled.div`
   backdrop-filter: blur(80px);
 
   border-radius: 12px;
-
+  border:2px solid white;
+  margin:5px;
   @media (max-width: 1000px) {
     width: 80%;
 
@@ -106,7 +107,7 @@ const Colortext = styled.div`
   font-weight: normal;
   font-size: 22px;
   line-height: 22px;
-  text-transform: capitalize;
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -133,7 +134,7 @@ const Center=styled.div`
 const Finance = () => {
   return (
     <>
-      <Container style={{ marginBottom: "1rem", paddingTop: "2rem" }}>
+      <Container style={{ marginBottom: "1rem", paddingTop: "2rem",marginTop:"4rem" }}>
         <AboutWrapper
           style={{
             marginTop: "2rem",
@@ -179,15 +180,18 @@ const Finance = () => {
                   
                 }}
               >
-                <img src={Bag} alt="coin" />
-                <img src={Rupee} alt="Moneypurse" />
+                <img style={{width: "228px",
+height: "228px",}} src={Bag} alt="coin" />
+                <img style={{width: "228px",
+height: "228px",objectFit:"cover"}} src={Rupee} alt="Moneypurse" />
               </Desktop>
               <Desktop
                 style={{
                   justifyContent: "center",
                 }}
               >
-                <img src={Purse} alt="coingbag" />
+                <img  style={{width: "228px",
+height: "228px",objectFit:"cover"}} src={Purse} alt="coingbag" />
               </Desktop>
             </ImageWrapper>
           </Topdiv>
@@ -196,7 +200,7 @@ const Finance = () => {
             style={{
               display: "flex",
               alignItems: "center",
-              justifyContent: "center",
+              justifyContent: "space-between",
               flexWrap: "wrap",
               width: "100%",
             }}
@@ -213,9 +217,10 @@ const Finance = () => {
                     marginBottom: "1rem",
                   }}
                 >
-                  <h3>CREATOR DEFI</h3>A Multi Chain Solution with Defi
+                  <h3 style={{color: "linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%)"}}>CREATOR DEFI</h3>
+                  <span style={{color: "linear-gradient(83.93deg, #ffffff 5.84%, #f5b4c3 101.22%)"}}>A Multi Chain Solution with Defi
                   Principles and a Community friendly approach with creators at
-                  its forefront, and at its core.
+                  its forefront, and at its core.</span>
                 </span>
               </Innerdiv>
             </TransparentDiv>

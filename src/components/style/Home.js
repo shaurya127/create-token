@@ -63,8 +63,8 @@ export const H1 = styled.h1`
   -webkit-text-fill-color: transparent;
   text-align: center;
   margin-bottom: 0;
-//   font-family: 'Gothic A1', sans-serif;
-// font-family: 'Press Start 2P', cursive;
+
+
 `;
 
 export const GradientButton = styled.div`

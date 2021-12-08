@@ -107,7 +107,7 @@ const Colortext = styled.div`
   font-weight: normal;
   font-size: 22px;
   line-height: 22px;
-  text-transform: capitalize;
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -134,7 +134,7 @@ const Center=styled.div`
 const Console = () => {
   return (
     <>
-      <Container style={{ marginBottom: "1rem", paddingTop: "2rem" }}>
+      <Container style={{ marginBottom: "4rem", paddingTop: "2rem" }}>
         <AboutWrapper
           style={{
             marginTop: "2rem",
@@ -153,15 +153,18 @@ const Console = () => {
                   
                 }}
               >
-                <img src={Key} alt="coin" />
-                <img src={Notebook} alt="Moneypurse" />
+                <img style={{width: "228px",
+height: "228px",}} src={Key} alt="coin" />
+                <img style={{width: "228px",
+height: "228px",}} src={Notebook} alt="Moneypurse" />
               </Desktop>
               <Desktop
                 style={{
                   justifyContent: "center",
                 }}
               >
-                <img src={Heart} alt="coingbag" />
+                <img style={{width: "228px",
+height: "228px",}} src={Heart} alt="coingbag" />
               </Desktop>
             </ImageWrapper>
             <TextWrapper>

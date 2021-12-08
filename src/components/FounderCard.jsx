@@ -3,7 +3,7 @@ import React from "react";
 // import SampleImage from "./style/images/Abhishek_Krishna 1.svg";
 import fb from "./style/images/facebook 24px.png";
 import twitter from "./style/images/twitter 24px.png";
-import ln from "./style/images/linkedin 24px.svg";
+import ln from "./style/images/image 1.png";
 import Abishek from "./style/images/Abhishek.png";
 
 import { CardMain } from "./style/Card";
@@ -34,10 +34,11 @@ const FounderCard = () => {
       >
         Designation
       </span>
-      <div style={{ display: "flex" }}>
-        <img src={fb} alt="social" />
-        <img src={twitter} alt="social" />
-        <img src={ln} alt="social" />
+      <div style={{ display: "flex" ,marginTop:"0.5rem" }}>
+        {/* <img src={fb} alt="social" /> */}
+        {/* <img src={twitter} alt="social" /> */}
+        
+        <img style={{height:"2rem",width:"2rem"}} src={ln} alt="social" />
       </div>
     </CardMain>
   );

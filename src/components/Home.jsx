@@ -50,7 +50,7 @@ const Home = () => {
           {/* <GradientButton>Buy SCRB token</GradientButton> */}
           <GradientButton>Download Whitepaper</GradientButton>
         </div>
-        <h3 style={{opacity:"0.5",borderBottom:"1px solid white"}}>Subscribe to our newsletter</h3>
+        <h3 style={{opacity:"0.5",borderBottom:"1px solid white",fontSize:"1rem"}}>Subscribe to our newsletter</h3>
       </Heading>
     </Container>
     <About/>

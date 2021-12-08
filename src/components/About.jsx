@@ -11,7 +11,7 @@ import {
 } from "./style/Home";
 
 const AboutWrapper = styled.div`
-margin-top:1rem;
+margin-top:5rem;
 display:flex;
 justify-content:space-evenly;
 flexWrap:wrap;
@@ -25,7 +25,7 @@ flex-direction:row;
 `;
 
 const ImageWrapper=styled.div`
-width:35%;
+width:45%;
 height:50%;
 object-fit:contain;
 margin-top:5rem;
@@ -47,7 +47,7 @@ const About = () => {
             marginTop: "2rem",
             display: "flex",
             alignItems: "center", 
-            justifyContent: "center",
+            justifyContent: "space-between",
             flexWrap: "wrap",
           }}
         >
@@ -62,10 +62,9 @@ const About = () => {
                 marginBottom: "1rem",
               }}
             >
-              A Multi Chain Solution with Defi Principles and a Community
-              friendly approach with creators at its forefront, and at its core.
+              <h3>CREATE TOKEN</h3>The Currency of your Creativity. Convert your creativity into currency For the first time ever.
             </span>
-            <GradientButton>Earn Create</GradientButton>
+            <GradientButton style={{marginLeft:"0"}}>Explore</GradientButton>
           </TransparentDiv>
           <ImageWrapper >
             <img
@@ -88,10 +87,9 @@ const About = () => {
                 marginBottom: "1rem",
               }}
             >
-              A Multi Chain Solution with Defi Principles and a Community
-              friendly approach with creators at its forefront, and at its core.
+              A Multi Chain Solution with Defi Principles and a Community friendly approach with creators at its forefront, and at its core.
             </span>
-            <GradientButton>Earn Create</GradientButton>
+            <GradientButton style={{marginLeft:"0"}}>Earn Create</GradientButton>
           </TransparentDiv>
 
           
