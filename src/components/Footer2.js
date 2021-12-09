@@ -37,7 +37,7 @@ const Footer2 = () => {
        
         <Row >
           <Heading style={{color:"#FFFFFF"}}>Resources</Heading>
-          <FooterLink href="/faq">Download Whitepapper</FooterLink>
+          <FooterLink href="/faq">Download Whitepaper</FooterLink>
           <FooterLink href="#">Smart Token</FooterLink>
           <FooterLink href="#">Blockchain Explorer</FooterLink>
           <FooterLink href="#">Crypto API</FooterLink>
