@@ -12,12 +12,11 @@ const FounderCard = () => {
   return (
     <CardMain>
       <div style={{ marginBottom: "1rem" }}>
-        <img style={{hieght:"10rem",width:"10rem",objectFit:"cover"}} src={Abishek} alt="sample" />
+        <img style={{hieght:"8rem",width:"8rem",objectFit:"cover"}} src={Abishek} alt="sample" />
       </div>
       <span
         style={{
-          fontStyle: "normal",
-          fontWeight: "bold",
+          
           fontSize: "24px",
           lineHeight: "36px",
         }}
@@ -26,8 +25,8 @@ const FounderCard = () => {
       </span>
       <span
         style={{
-          fontStyle: "normal",
-          fontWeight: "bold",
+          fontWeight:"normal",
+          
           fontSize: "16px",
           lineHeight: "25px",
         }}

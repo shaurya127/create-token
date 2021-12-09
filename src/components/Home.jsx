@@ -4,10 +4,10 @@ import About from "./About";
 import CardContainer from "./CardConatiner";
 import Footer from "./Footer2";
 import Logo from './style/images/logo.svg'
-// import LogoName from './style/images/LogoName.svg'
+import LogoName from './style/images/LogoName.svg'
 import '../App.css'
 
-import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton,Gradient,Button} from "./style/Home";
+import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton,Gradient,Button,GradientBorder,GradientSpan} from "./style/Home";
 import Navbar from "./Navbar";
 import Finance from "./Finance";
 import CDapp from './CDapp'
@@ -22,21 +22,19 @@ const Home = () => {
 
         <Logos>
             <img style={{marginRight:".5rem"}} src={Logo} alt="company"/>
-            {/* <img src={LogoName} alt="company"/> */}
+            <img src={LogoName} alt="company"/>
         </Logos>
         <Options>
-          <button style={{margin:"10px",fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none"}}><Item>mercado.studio</Item></button>
-          <button style={{margin:"10px",fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none"}}><Item>Team and Advisors</Item></button>
-          <button style={{margin:"10px",fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none"}}><Item>Contact</Item></button>
+          <button style={{fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none",fontFamily: "Rubik"}}><Item>mercado.studio</Item></button>
+          <button style={{fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none",fontFamily: "Rubik"}}><Item>Team and Advisors</Item></button>
+          <button style={{fontSize:"17px",fontWeight:"bold",backgroundColor:"transparent",color:"white",border: "none",background: "none",fontFamily: "Rubik"}}><Item>Contact</Item></button>
         
          
           
-          <Button >
-            <Gradient style={{ background: "black", padding: "8px 20px",borderRadius: "26px" ,backgroundColor:"#000000"}}>
-              Connect Wallet
-            </Gradient>
-          </Button>
+         
+          <GradientBorder><GradientSpan>Connect Wallet</GradientSpan></GradientBorder>
           <GradientButton style={{width:"fit-content"}}>Download Whitepaper</GradientButton>
+          
         </Options>
       </NavbarM>
       <Heading style={{marginTop:"5rem"}}>
@@ -50,7 +48,8 @@ const Home = () => {
         </H1>
         <div style={{ display: "flex", marginTop: "1.5rem",flexWrap:"wrap",alignItems:"center",justifyContent:"center" }}>
           {/* <GradientButton>Buy SCRB token</GradientButton> */}
-          <GradientButton>Download Whitepaper</GradientButton>
+          <GradientButton>Buy $CR8 token</GradientButton>
+          <GradientButton>Explore Marketplace </GradientButton>
         </div>
         <h3 style={{opacity:"0.5",borderBottom:"1px solid white",fontSize:"1rem"}}>Subscribe to our newsletter</h3>
       </Heading>

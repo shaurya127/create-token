@@ -17,9 +17,9 @@ const CardContainer = () => {
     <div style={{ marginTop: "4rem" }}>
       <Heading style={{ padding: "0" }}>
         <H1
-          style={{ fontSize: "68px", lineHeight: "67px", marginBottom: "2rem" }}
+          style={{ fontSize: "3.5rem", lineHeight: "3rem", marginBottom: "1rem",marginTop:"10rem" }}
         >
-          MEET OUR TEAM
+          MEET THE TEAM
         </H1>
       </Heading>
       <div

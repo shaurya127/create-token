@@ -153,29 +153,29 @@ const Console = () => {
                   
                 }}
               >
-                <img style={{width: "228px",
-height: "228px",}} src={Key} alt="coin" />
-                <img style={{width: "228px",
-height: "228px",}} src={Notebook} alt="Moneypurse" />
+                <img style={{width: "220px",
+height: "220px",}} src={Key} alt="coin" />
+                <img style={{width: "220px",
+height: "220px",}} src={Notebook} alt="Moneypurse" />
               </Desktop>
               <Desktop
                 style={{
                   justifyContent: "center",
                 }}
               >
-                <img style={{width: "228px",
-height: "228px",}} src={Heart} alt="coingbag" />
+                <img style={{width: "220px",
+height: "220px",}} src={Heart} alt="coingbag" />
               </Desktop>
             </ImageWrapper>
             <TextWrapper>
-              <Colortext style={{ fontSize: "4rem", lineHeight: "4rem",width:"100%",fontFamily:"EarthOrbiter" }}>
+              <Colortext style={{ fontSize: "3rem", lineHeight: "4rem",width:"100%",fontFamily:"EarthOrbiter" }}>
               CONSOLE
               </Colortext>
               <Colortext
                 style={{
                   width: "100%",
                   marginTop: "2rem",
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "2rem",
                   fontFamily: "Century Gothic",
                   fontStyle: "normal",

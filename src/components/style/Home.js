@@ -1,25 +1,24 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
   background-color: black;
-  margin: 2rem;
+  margin: 6rem;
 `;
 export const NavbarM = styled.div`
   display: flex;
   justify-content: space-between;
   height: 2rem;
   align-items: center;
-  @media(max-width:1200px){
-    display:none;
+  @media (max-width: 1200px) {
+    display: none;
   }
 `;
 export const Logos = styled.div``;
 export const Options = styled.div`
   color: white;
   display: flex;
-  height:100%;
-  align-items:center;
+  height: 100%;
+  align-items: center;
 `;
 export const Button = styled.div`
   color: white;
@@ -63,13 +62,11 @@ export const H1 = styled.h1`
   -webkit-text-fill-color: transparent;
   text-align: center;
   margin-bottom: 0;
-
-
 `;
 
 export const GradientButton = styled.div`
   color: white;
-  border-radius:5px;
+  border-radius: 5px;
   width: 10rem;
   text-align: center;
   background: linear-gradient(
@@ -79,12 +76,31 @@ export const GradientButton = styled.div`
     #a53db6 49.56%,
     #cb3f59 93.2%
   );
-  
+
   padding: 0.5rem;
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
   margin: 1rem;
-  cursor:pointer;
+  cursor: pointer;
 `;
 
+export const GradientBorder = styled.div`
+  background: linear-gradient(273.83deg, rgba(242, 39, 78, 0.71) -18.25%, #333095 113.47%);
+ 
+
+
+  border-radius: 8px;
+  color: #122dff;
+  display: inline-block;
+  font-size: 16px;
+  padding: 3px;
+  text-decoration: none;
+`;
+export const GradientSpan = styled.span`
+  background:black;
+  display: block;
+  padding: .5em 2em;
+  border-radius: 6px;
+  color: white;
+`;

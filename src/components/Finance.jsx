@@ -55,8 +55,8 @@ const TransparentDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 35px 40px;
-  width: 25%;
+  padding: 20px 20px;
+  width: 28%;
   height: 30%;
   margin-top: 2.5rem;
   background: url(.png),
@@ -156,7 +156,7 @@ const Finance = () => {
             <TextWrapper>
               <Colortext
                 style={{
-                  fontSize: " 4rem",
+                  fontSize: " 3rem",
                   lineHeight: "4rem",
                   width: "100% ",
                   fontFamily: "EarthOrbiter",
@@ -168,7 +168,7 @@ const Finance = () => {
                 style={{
                   width: "100%",
                   marginTop: "2rem",
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "2rem",
                   fontFamily: "Century Gothic",
                   fontStyle: "normal",
@@ -190,14 +190,14 @@ const Finance = () => {
             <ImageWrapper style={{ alignItems: "start" }}>
               <Desktop style={{}}>
                 <img
-                  style={{ width: "228px", height: "228px" }}
+                  style={{ width: "220px", height: "220px" }}
                   src={Bag}
                   alt="coin"
                 />
                 <img
                   style={{
-                    width: "228px",
-                    height: "228px",
+                    width: "220px",
+                    height: "220px",
                     objectFit: "cover",
                   }}
                   src={Rupee}
@@ -211,8 +211,8 @@ const Finance = () => {
               >
                 <img
                   style={{
-                    width: "228px",
-                    height: "228px",
+                    width: "220px",
+                    height: "220px",
                     objectFit: "cover",
                   }}
                   src={Purse}
@@ -253,7 +253,7 @@ const Finance = () => {
                     </h3>
                     <span
                       style={{
-                        fontSize:"1.2rem"
+                        fontSize:"1.1rem"
                       }}
                     >
                       A Multi Chain Solution with Defi Principles and a
@@ -277,14 +277,14 @@ const Finance = () => {
                   }}
                 >
                   <Colortext1>
-                    <h3>CREATOR FAN TOKENS</h3><span style={{fontSize:"1.2rem"}}>A Multi Chain Solution with Defi
+                    <h3>CREATOR FAN TOKENS</h3><span style={{fontSize:"1.1rem"}}>A Multi Chain Solution with Defi
                     Principles and a Community friendly approach with creators
                     at its forefront, and at its core.</span>
                   </Colortext1>
                 </span>
               </Innerdiv>
             </TransparentDiv>
-            <TransparentDiv>
+            <TransparentDiv >
               <Innerdiv>
                 <span
                   style={{
@@ -295,11 +295,12 @@ const Finance = () => {
                     fontFamily: "Century Gothic",
                     marginBottom:"1rem"
                     
+                    
                   }}
                 >
                   <Colortext1>
                     <h3>CREATE TO EARN ECONOMY</h3>
-                    <span style={{fontSize:"1.2rem"}}>A Multi Chain Solution with
+                    <span style={{fontSize:"1.1rem"}}>A Multi Chain Solution with
                     Defi Principles and a Community friendly approach with
                     creators at its forefront, and at its core.</span>
                   </Colortext1>

@@ -177,7 +177,7 @@ const CDapp = () => {
                 style={{
                   width: "100%",
                   marginTop: "2rem",
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "2rem",
                   fontFamily: "Century Gothic",
                   fontStyle: "normal",
@@ -196,18 +196,18 @@ const CDapp = () => {
             </TextWrapper>
             <ImageWrapper style={{ alignItems: "start" }}>
               <Desktop style={{}}>
-                <img style={{width: "228px",
-height: "228px",}} src={Thumb} alt="coin" />
-                <img style={{width: "228px",
-height: "228px",}} src={Paint} alt="Moneypurse" />
+                <img style={{width: "220px",
+height: "220px",}} src={Thumb} alt="coin" />
+                <img style={{width: "220px",
+height: "220px",}} src={Paint} alt="Moneypurse" />
               </Desktop>
               <Desktop
                 style={{
                   justifyContent: "center",
                 }}
               >
-                <img style={{width: "228px",
-height: "228px",}} src={Chat} alt="coingbag" />
+                <img style={{width: "220px",
+height: "220px",}} src={Chat} alt="coingbag" />
               </Desktop>
             </ImageWrapper>
           </Topdiv>
@@ -233,7 +233,7 @@ height: "228px",}} src={Chat} alt="coingbag" />
                     marginBottom: "1rem",
                   }}
                 ><Colortext1>
-                  <h3>ROYALTY MANAGENENT</h3><span style={{fontSize:"1.3rem"}}>Manage your royalty through smart
+                  <h3>ROYALTY MANAGENENT</h3><span style={{fontSize:"1.1rem"}}>Manage your royalty through smart
                   contracts and manage your earnings</span></Colortext1>
                 </span>
               </Innerdiv>
@@ -248,11 +248,11 @@ height: "228px",}} src={Chat} alt="coingbag" />
                     lineHeight: "1.5rem",
                     fontFamily: "Century Gothic",
                     marginBottom: "2rem",
-                    marginTop:".5rem"
+                    marginTop:".7rem"
                   }}
                 ><Colortext1>
-                  <h3>MUZIX</h3><span style={{fontSize:"1.3rem"}}></span>Our API for you to create content and share it
-                  with your fans</Colortext1>
+                  <h3>MUZIX</h3><span style={{fontSize:"1.1rem"}}>Our API for you to create content and share it
+                  with your fans</span></Colortext1>
                 </span>
               </Innerdiv>
             </TransparentDiv>
@@ -268,7 +268,7 @@ height: "228px",}} src={Chat} alt="coingbag" />
                     marginBottom: "1rem",
                   }}
                 ><Colortext1>
-                  <h3>FAN FUNDING</h3><span style={{fontSize:"1.3rem"}}>Fans funding your dream projects! We are
+                  <h3>FAN FUNDING</h3><span style={{fontSize:"1.1rem"}}>Fans funding your dream projects! We are
                   Decentralizing Crowd-sourcing!</span></Colortext1>
                 </span>
               </Innerdiv>

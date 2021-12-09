@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const CardMain = styled.div`
-font-family:"'Gothic A1', sans-serif";
+font-family:"Century Gothic";
+font-style: normal;
+font-weight: bold;
   width: 15rem;
   height: 20rem;
   background: linear-gradient(
@@ -20,6 +22,9 @@ font-family:"'Gothic A1', sans-serif";
 `;
 
 export const CardPlain = styled.div`
+font-family:"Century Gothic";
+font-style: normal;
+font-weight: bold;
   width: 15rem;
   height: 20rem;
   border: 1px solid white;

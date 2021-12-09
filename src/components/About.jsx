@@ -8,6 +8,8 @@ import {
   Container,
   H1,
   GradientButton,
+  GradientBorder,
+  GradientSpan
 } from "./style/Home";
 
 const AboutWrapper = styled.div`
@@ -43,7 +45,7 @@ font-size: 1.4rem;
 `;
 
 const ImageWrapper=styled.div`
-width:45%;
+width:40%;
 height:50%;
 object-fit:contain;
 margin-top:5rem;
@@ -68,7 +70,8 @@ const About = () => {
             flexWrap: "wrap",
           }}
         >
-          <TransparentDiv style={{}}>
+          <TransparentDiv style={{padding:"20px"}}>
+            
             <span
               style={{
                 fontStyle: "normal",
@@ -77,9 +80,10 @@ const About = () => {
                 lineHeight: "1.5rem",
                 fontFamily: "Century Gothic",
                 marginBottom: "1rem",
+                padding:".1rem",
               }}
-            ><Colortext1>
-              <h3>CREATE TOKEN</h3><span style={{fontSize:"1.2rem"}}>The Currency of your Creativity. Convert your creativity into currency For the first time ever.</span></Colortext1>
+            ><Colortext1 style={{padding:".1rem"}}>
+              <h3 style={{marginTop:"0"}}>CREATE TOKEN</h3><span style={{fontSize:"1.1rem"}}>The Currency of your Creativity. Convert your creativity into currency For the first time ever.</span></Colortext1>
             </span>
             <GradientButton style={{marginLeft:"0"}}>Explore</GradientButton>
           </TransparentDiv>
@@ -93,7 +97,7 @@ const About = () => {
           </ImageWrapper>
           
           
-          <TransparentDiv style={{}}>
+          <TransparentDiv style={{padding:"20px"}}>
             <span
               style={{
                 fontStyle: "normal",
@@ -104,10 +108,10 @@ const About = () => {
                 marginBottom: "1rem",
               }}
             ><Colortext1>
-            <span  style={{fontSize:"1.2rem"}}>
+            <span  style={{fontSize:"1.1rem"}}>
               A Multi Chain Solution with Defi Principles and a Community friendly approach with creators at its forefront, and at its core.</span></Colortext1>
             </span>
-            <GradientButton style={{marginLeft:"0"}}>Earn Create</GradientButton>
+            <GradientButton style={{marginLeft:"0",marginTop:"2.2rem"}}>Earn Create</GradientButton>
           </TransparentDiv>
 
           
