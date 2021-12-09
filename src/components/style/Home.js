@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: black;
   margin: 6rem;
+
+  @media(max-width:1000px)
+  {
+    margin:2rem;
+  }
 `;
 export const NavbarM = styled.div`
   display: flex;

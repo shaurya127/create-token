@@ -6,6 +6,7 @@ import Footer from "./Footer2";
 import Logo from './style/images/logo.svg'
 import LogoName from './style/images/LogoName.svg'
 import '../App.css'
+import Tokenomics from './style/images/tokenomics image.png';
 
 import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton,Gradient,Button,GradientBorder,GradientSpan} from "./style/Home";
 import Navbar from "./Navbar";
@@ -59,6 +60,10 @@ const Home = () => {
     <Console/>
     <CDapp/>
     <CardContainer/>
+    <div style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100%",width:"100%",marginTop:"5rem"}}>
+    <img style={{height:"100%",width:"100%",objectFit:"cover"}} src={Tokenomics} alt="tokendetails"/>
+    </div>
+    
 
     <br/>
     <br/>

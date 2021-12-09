@@ -54,7 +54,7 @@ const Footer2 = () => {
         </Row> */}
         <Row>
           <Heading style={{fontSize:"32px" ,color:"#FFFFFF"}}>We accept following <br/>payment systems</Heading>
-          <div className="row" style={{display:"flex",flexDirection:"row",marginLeft:"1px"}}>
+          <div className="row" style={{display:"flex",flexDirection:"row",marginLeft:"1px",flexWrap:"wrap"}}>
                 <img src={visa} style={{width:"100px",height:"70px",margin:"10px"}}></img>
                 <img src={bitcoin} style={{width:"100px",height:"70px",margin:"10px"}}></img>
                 <img src={mastercard} style={{width:"100px",height:"70px",margin:"10px"}}></img>

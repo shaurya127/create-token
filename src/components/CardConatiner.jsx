@@ -65,7 +65,7 @@ const CardContainer = () => {
             justifyContent: "space-evenly",
             flexWrap: "wrap",
             width: "90%",
-            marginTop: "4rem",
+            marginTop: "3rem",
           }}
         >
           <TransparentCard />

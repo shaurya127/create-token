@@ -190,12 +190,12 @@ const Finance = () => {
             <ImageWrapper style={{ alignItems: "start" }}>
               <Desktop style={{}}>
                 <img
-                  style={{ width: "220px", height: "220px" }}
+                  className="floating" style={{ width: "220px", height: "220px" }}
                   src={Bag}
                   alt="coin"
                 />
                 <img
-                  style={{
+                  className="floating " style={{
                     width: "220px",
                     height: "220px",
                     objectFit: "cover",
@@ -210,7 +210,7 @@ const Finance = () => {
                 }}
               >
                 <img
-                  style={{
+                  className="floating" style={{
                     width: "220px",
                     height: "220px",
                     objectFit: "cover",
@@ -229,6 +229,7 @@ const Finance = () => {
               justifyContent: "space-between",
               flexWrap: "wrap",
               width: "100%",
+              marginTop:"2rem"
             }}
           >
             <TransparentDiv>
@@ -256,9 +257,7 @@ const Finance = () => {
                         fontSize:"1.1rem"
                       }}
                     >
-                      A Multi Chain Solution with Defi Principles and a
-                      Community friendly approach with creators at its
-                      forefront, and at its core.
+                      Sort your finances, creatively with deflationary tokenomics
                     </span>
                   </Colortext1>
                 </span>
@@ -277,9 +276,7 @@ const Finance = () => {
                   }}
                 >
                   <Colortext1>
-                    <h3>CREATOR FAN TOKENS</h3><span style={{fontSize:"1.1rem"}}>A Multi Chain Solution with Defi
-                    Principles and a Community friendly approach with creators
-                    at its forefront, and at its core.</span>
+                    <h3>CREATOR FAN TOKENS</h3><span style={{fontSize:"1.1rem"}}>Social Tokens for your fans, to earn from your creativity, and their Loyalty</span>
                   </Colortext1>
                 </span>
               </Innerdiv>
@@ -300,9 +297,7 @@ const Finance = () => {
                 >
                   <Colortext1>
                     <h3>CREATE TO EARN ECONOMY</h3>
-                    <span style={{fontSize:"1.1rem"}}>A Multi Chain Solution with
-                    Defi Principles and a Community friendly approach with
-                    creators at its forefront, and at its core.</span>
+                    <span style={{fontSize:"1.1rem"}}>Control all your content distribtion and earnings with our ultimate dashboard</span>
                   </Colortext1>
                 </span>
               </Innerdiv>

@@ -196,9 +196,9 @@ const CDapp = () => {
             </TextWrapper>
             <ImageWrapper style={{ alignItems: "start" }}>
               <Desktop style={{}}>
-                <img style={{width: "220px",
+                <img className="floating" style={{width: "220px",
 height: "220px",}} src={Thumb} alt="coin" />
-                <img style={{width: "220px",
+                <img className="floating" style={{width: "220px",
 height: "220px",}} src={Paint} alt="Moneypurse" />
               </Desktop>
               <Desktop
@@ -206,7 +206,7 @@ height: "220px",}} src={Paint} alt="Moneypurse" />
                   justifyContent: "center",
                 }}
               >
-                <img style={{width: "220px",
+                <img className="floating" style={{width: "220px",
 height: "220px",}} src={Chat} alt="coingbag" />
               </Desktop>
             </ImageWrapper>

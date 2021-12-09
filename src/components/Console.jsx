@@ -153,9 +153,9 @@ const Console = () => {
                   
                 }}
               >
-                <img style={{width: "220px",
+                <img className="floating" style={{width: "220px",
 height: "220px",}} src={Key} alt="coin" />
-                <img style={{width: "220px",
+                <img className="floating" style={{width: "220px",
 height: "220px",}} src={Notebook} alt="Moneypurse" />
               </Desktop>
               <Desktop
@@ -163,7 +163,7 @@ height: "220px",}} src={Notebook} alt="Moneypurse" />
                   justifyContent: "center",
                 }}
               >
-                <img style={{width: "220px",
+                <img className="floating" style={{width: "220px",
 height: "220px",}} src={Heart} alt="coingbag" />
               </Desktop>
             </ImageWrapper>
