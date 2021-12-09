@@ -69,9 +69,9 @@ const Home = () => {
     <img style={{height:"100%",width:"100%",objectFit:"cover"}} src={Tokenomics} alt="tokendetails"/>
     </div>
     </Container>
-    
-    
 
+    
+    
     <br/>
     <br/>
     <br/>
