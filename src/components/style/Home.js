@@ -18,7 +18,11 @@ export const NavbarM = styled.div`
     display: none;
   }
 `;
-export const Logos = styled.div``;
+export const Logos = styled.div`
+
+display:flex;
+align-items:center;
+justify-content:center;`;
 export const Options = styled.div`
   color: white;
   display: flex;

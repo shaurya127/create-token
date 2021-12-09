@@ -1,10 +1,10 @@
 import React from "react";
-// import styled from "styled-components";
+import styled from "styled-components";
 import About from "./About";
 import CardContainer from "./CardConatiner";
 import Footer from "./Footer2";
 import Logo from './style/images/logo.svg'
-import LogoName from './style/images/LogoName.svg'
+import LogoName from './style/images/Logoname.png'
 import '../App.css'
 import Tokenomics from './style/images/tokenomics image.png';
 
@@ -12,7 +12,10 @@ import { Container,Logos,NavbarM,Options,Item,Heading,H1,GradientButton,Gradient
 import Navbar from "./Navbar";
 import Finance from "./Finance";
 import CDapp from './CDapp'
-import Console from './Console'
+import Console from './Console';
+
+
+
 
 const Home = () => {
   return (
@@ -60,9 +63,13 @@ const Home = () => {
     <Console/>
     <CDapp/>
     <CardContainer/>
-    <div style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100%",width:"100%",marginTop:"5rem"}}>
+    <Container>
+    <div
+    style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100%",width:"100%"}}>
     <img style={{height:"100%",width:"100%",objectFit:"cover"}} src={Tokenomics} alt="tokendetails"/>
     </div>
+    </Container>
+    
     
 
     <br/>
