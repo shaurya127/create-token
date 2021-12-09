@@ -85,7 +85,7 @@ const About = () => {
             ><Colortext1 style={{padding:".1rem"}}>
               <h3 style={{marginTop:"0"}}>CREATE TOKEN</h3><span style={{fontSize:"1.1rem"}}>The Currency of your Creativity. Convert your creativity into currency For the first time ever.</span></Colortext1>
             </span>
-            <GradientButton style={{marginLeft:"0"}}>Explore</GradientButton>
+            <GradientButton style={{marginLeft:"0",marginBottom:"0"}}>Explore</GradientButton>
           </TransparentDiv>
           <ImageWrapper >
             <img
@@ -111,7 +111,7 @@ const About = () => {
             <span  style={{fontSize:"1.1rem"}}>
               A Multi Chain Solution with Defi Principles and a Community friendly approach with creators at its forefront, and at its core.</span></Colortext1>
             </span>
-            <GradientButton style={{marginLeft:"0",marginTop:"2.2rem"}}>Earn Create</GradientButton>
+            <GradientButton style={{marginLeft:"0",marginTop:"2.2rem",marginBottom:"0"}}>Earn Create</GradientButton>
           </TransparentDiv>
 
           

@@ -32,7 +32,7 @@ const Home = () => {
          
           
          
-          <GradientBorder><GradientSpan>Connect Wallet</GradientSpan></GradientBorder>
+          {/* <GradientBorder><GradientSpan>Connect Wallet</GradientSpan></GradientBorder> */}
           <GradientButton style={{width:"fit-content"}}>Download Whitepaper</GradientButton>
           
         </Options>

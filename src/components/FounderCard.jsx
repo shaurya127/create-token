@@ -11,13 +11,13 @@ import { CardMain } from "./style/Card";
 const FounderCard = () => {
   return (
     <CardMain>
-      <div style={{ marginBottom: "1rem" }}>
-        <img style={{hieght:"8rem",width:"8rem",objectFit:"cover"}} src={Abishek} alt="sample" />
+      <div style={{ marginBottom: "0.5rem" }}>
+        <img style={{height:"6.5rem",width:"6.5rem",objectFit:"cover"}} src={Abishek} alt="sample" />
       </div>
       <span
         style={{
           
-          fontSize: "24px",
+          fontSize: "1.2rem",
           lineHeight: "36px",
         }}
       >
@@ -27,7 +27,7 @@ const FounderCard = () => {
         style={{
           fontWeight:"normal",
           
-          fontSize: "16px",
+          fontSize: "0.9rem",
           lineHeight: "25px",
         }}
       >
