@@ -8,11 +8,11 @@ import Abishek from "./style/images/Abhishek.png";
 
 import { CardMain } from "./style/Card";
 
-const FounderCard = () => {
+const FounderCard = (props) => {
   return (
     <CardMain>
       <div style={{ marginBottom: "0.5rem" }}>
-        <img style={{height:"6.5rem",width:"6.5rem",objectFit:"cover"}} src={Abishek} alt="sample" />
+        <img style={{height:"6.5rem",width:"6.5rem",objectFit:"cover"}} src={props.image} alt="sample" />
       </div>
       <span
         style={{
@@ -21,7 +21,7 @@ const FounderCard = () => {
           lineHeight: "36px",
         }}
       >
-        Abhishek Krishna
+        {props.name}
       </span>
       <span
         style={{
@@ -31,14 +31,14 @@ const FounderCard = () => {
           lineHeight: "25px",
         }}
       >
-        Designation
+        {props.designation}
       </span>
       <div style={{ display: "flex" ,marginTop:"0.5rem" }}>
         {/* <img src={fb} alt="social" /> */}
         {/* <img src={twitter} alt="social" /> */}
-        
+        <a href={props.link}>
         <img style={{height:"2rem",width:"2rem"}} src={ln} alt="social" />
-      </div>
+      </a></div>
     </CardMain>
   );
 };
