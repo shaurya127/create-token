@@ -8,13 +8,13 @@ import Abishek from "./style/images/Abhishek.png";
 
 import { CardPlain } from "./style/Card";
 
-const TransparentCard = () => {
+const TransparentCard = (props) => {
   return (
     <CardPlain>
       <div style={{ marginBottom: "0.5rem" }}>
         <img
           style={{ height: "6.5rem", width: "6.5rem", objectFit: "cover" }}
-          src={Abishek}
+          src={props.image}
           alt="sample"
         />
       </div>
@@ -24,7 +24,7 @@ const TransparentCard = () => {
           lineHeight: "36px",
         }}
       >
-        Abhishek Krishna
+        {props.name}
       </span>
       <span
         style={{
@@ -34,12 +34,13 @@ const TransparentCard = () => {
           lineHeight: "25px",
         }}
       >
-        Designation
+        {props.designation}
       </span>
       <div style={{ display: "flex",marginTop:"0.5rem" }}>
         {/* <img src={fb} alt="social" /> */}
         {/* <img src={twitter} alt="social" /> */}
-        <img style={{height:"2rem",width:"2rem"}}src={ln} alt="social" />
+        <a href={props.link}>
+        <img style={{height:"2rem",width:"2rem"}}src={ln} alt="social" /></a>
       </div>
     </CardPlain>
   );
