@@ -72,8 +72,9 @@ const CardContainer = () => {
             marginTop: "3rem",
           }}
         >
-          <TransparentCard image={Abhishek} name={"Kunal Singh"} designation={"Advisor"} link={"https://www.linkedin.com/in/kunal-singh-07829910/"}/>
           <TransparentCard image={Abhishek} name={"Arkesh Ayyagari"} designation={"General Council"} link={"https://www.linkedin.com/in/arkesh-ayyagari-42a936189/"}/>
+          <TransparentCard image={Abhishek} name={"Kunal Singh"} designation={"Advisor"} link={"https://www.linkedin.com/in/kunal-singh-07829910/"}/>
+          
           <TransparentCard image={Abhishek} name={"Garima Singh"} designation={"Full Time Advisor"} link={"https://www.linkedin.com/in/garima-singh-03907229/"}/>
           <TransparentCard image={Abhishek} name={"Deegendra"} designation={"Founder"} link={"https://www.linkedin.com/in/invokerkrishna/"}/>
           {/* <TransparentCard /> */}

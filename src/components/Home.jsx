@@ -13,7 +13,7 @@ import Navbar from "./Navbar";
 import Finance from "./Finance";
 import CDapp from './CDapp'
 import Console from './Console';
-
+import Partners from './Partners'
 
 
 
@@ -62,6 +62,7 @@ const Home = () => {
     <Finance/>
     <Console/>
     <CDapp/>
+    <Partners/>
     <CardContainer/>
     <Container>
     <div
