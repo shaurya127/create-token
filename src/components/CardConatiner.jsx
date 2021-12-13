@@ -12,8 +12,9 @@ import Girish from './style/images/Girish_Ahirwar.png'
 import Yasish from './style/images/Yashish_Khurana.png'
 
 import Akhil from './style/images/Akhil_Shrivastava.png'
-import Kunal from './style/images/Kunal_Singh.png'
+import Kunal from './style/images/Kunal_Singh1.png'
 import Garima from './style/images/Garima_Singh.png'
+import Dheeraj from './style/images/Dheeraj_Singh_Rathore.png'
 
 import FounderCard from "./FounderCard";
 import TransparentCard from "./TransparentCard";
@@ -81,7 +82,7 @@ const CardContainer = () => {
           <TransparentCard image={Kunal} name={"Kunal Singh"} designation={"Advisor"} link={"https://www.linkedin.com/in/kunal-singh-07829910/"}/>
           
           
-          <TransparentCard image={Abhishek} name={"Deegendra"} designation={"Advisor"} link={"https://www.linkedin.com/in/invokerkrishna/"}/>
+          <TransparentCard image={Dheeraj} name={"Deegendra"} designation={"Advisor"} link={""}/>
           <TransparentCard image={Garima} name={"Garima Singh"} designation={"Full Time Advisor"} link={"https://www.linkedin.com/in/garima-singh-03907229/"}/>
           {/* <TransparentCard /> */}
         </div>
