@@ -55,6 +55,7 @@ export const Heading = styled.div`
 `;
 export const Item = styled.div`
   margin: 0 0.8rem;
+  cursor:pointer
 `;
 export const H1 = styled.h1`
   font-size: 96px;

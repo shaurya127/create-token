@@ -6,9 +6,15 @@ import React from "react";
 // import ln from "./style/images/linkedin 24px.svg";
 
 // import { CardMain, CardPlain } from "./style/Card";
-import Abhishek from './style/images/Abhishek.png'
+import Abhishek from './style/images/Abhishek_Krishna.png'
 import Noriko from './style/images/noriko.png'
-import Girish from './style/images/girish.png'
+import Girish from './style/images/Girish_Ahirwar.png'
+import Yasish from './style/images/Yashish_Khurana.png'
+
+import Akhil from './style/images/Akhil_Shrivastava.png'
+import Kunal from './style/images/Kunal_Singh1.png'
+import Garima from './style/images/Garima_Singh.png'
+import Dheeraj from './style/images/Dheeraj_Singh_Rathore.png'
 
 import FounderCard from "./FounderCard";
 import TransparentCard from "./TransparentCard";
@@ -48,7 +54,7 @@ const CardContainer = () => {
           <FounderCard image={Abhishek} name={"Abhishek Krishna"} designation={"Founder"} link={"https://www.linkedin.com/in/invokerkrishna/"}/>
           <FounderCard image={Girish} name={"Girish Ahirwar"} designation={"Co Founder"} link={"https://www.linkedin.com/in/girish-ahirwar-61743565//"}/>
           <FounderCard image={Noriko} name={"Noriko Shakti"} designation={"Co Founder"} link={"https://norikoshakti.com/bio/"}/>
-          <FounderCard image={Abhishek} name={"Yashish Khurana"} designation={"Founder"} link={"https://www.linkedin.com/in/invokerkrishna/"}/>
+          <FounderCard  image={Yasish} name={"Yashish Khurana"} designation={"Crypto Expert & Trader"} link={"https://www.linkedin.com/in/yashish-khurana-a9b36a1a5/"}/>
           
         </div>
       </div>
@@ -68,14 +74,16 @@ const CardContainer = () => {
             alignItems: "center",
             justifyContent: "space-evenly",
             flexWrap: "wrap",
-            width: "90%",
+            width: "80%",
             marginTop: "3rem",
           }}
         >
-          <TransparentCard image={Abhishek} name={"Kunal Singh"} designation={"Advisor"} link={"https://www.linkedin.com/in/kunal-singh-07829910/"}/>
-          <TransparentCard image={Abhishek} name={"Arkesh Ayyagari"} designation={"General Council"} link={"https://www.linkedin.com/in/arkesh-ayyagari-42a936189/"}/>
-          <TransparentCard image={Abhishek} name={"Garima Singh"} designation={"Full Time Advisor"} link={"https://www.linkedin.com/in/garima-singh-03907229/"}/>
-          <TransparentCard image={Abhishek} name={"Deegendra"} designation={"Founder"} link={"https://www.linkedin.com/in/invokerkrishna/"}/>
+          <TransparentCard image={Akhil} name={"Akhil Srivastava"} designation={"Advisor"} link={"https://www.linkedin.com/in/akhil-srivastava-24991916/detail/contact-info/"}/>
+          <TransparentCard image={Kunal} name={"Kunal Singh"} designation={"Advisor"} link={"https://www.linkedin.com/in/kunal-singh-07829910/"}/>
+          
+          
+          <TransparentCard image={Dheeraj} name={"Deegendra"} designation={"Advisor"} link={""}/>
+          <TransparentCard image={Garima} name={"Garima Singh"} designation={"Full Time Advisor"} link={"https://www.linkedin.com/in/garima-singh-03907229/"}/>
           {/* <TransparentCard /> */}
         </div>
       </div>
