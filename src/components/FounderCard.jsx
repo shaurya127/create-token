@@ -26,7 +26,7 @@ const FounderCard = (props) => {
       <span
         style={{
           fontWeight:"normal",
-          
+          textAlign:"center",
           fontSize: "0.9rem",
           lineHeight: "25px",
         }}
