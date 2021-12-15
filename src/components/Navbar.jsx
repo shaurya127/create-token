@@ -3,19 +3,40 @@
 //import { UnorderedListOutlined } from "@ant-design/icons";
 // import { isBrowser } from "react-device-detect";
 import "./style/Navbar.css";
+import Logo from "./style/images/logo.svg";
+import LogoName from "./style/images/Logoname.png";
+import "../App.css";
+import Tokenomics from "./style/images/tokenomics image.png";
+import {Link,BrowserRouter as Router} from 'react-router-dom'
+import Whitepaper from "./CREATE PROTOCOL WHITE PAPER.pdf";
 // import ham from "./style/images/menu.png";
 // import Drawerroutes from "./DrawerRoutes";
-import Logo from "./style/images/logo.svg";
+// import Logo from "./style/images/logo.svg";
 import styled from "styled-components";
+import {
+  Container,
+  Logos,
+  NavbarM,
+  Options,
+  Item,
+  Heading,
+  H1,
+  GradientButton,
+  Gradient,
+  Button,
+  GradientBorder,
+  GradientSpan,
+} from "./style/Home";
 
 // import { Button } from "./style/Home";
 const Navdiv = styled.div`
-  @media (min-width: 1200px) {
+  @media (min-width: 1000px) {
     display: none;
   }
 `;
 const NavBar = (props) => {
   return (
+  <>
     <Navdiv>
       <nav
         role="navigation"
@@ -30,14 +51,14 @@ const NavBar = (props) => {
 
           <ul id="menu">
             <button>
-            <a href="google.com">
+            <Link to='/team'>
               <li>Team and Advisors</li>
-            </a>
+            </Link>
             </button>
             
-            <a href="google.com">
+            <a href='https://marketplace-ui-v2-3zmugzwln-muzix-frontend.vercel.app/' target='_blank' rel="noreferrer">
               <li>merkado studio</li>
-            </a>
+              </a>
             {/* <a href="google.com">
               <li>Swap</li>
             </a> */}
@@ -52,32 +73,90 @@ const NavBar = (props) => {
             </Button> */}
           </ul>
         </div>
+        
         <div>
+          <Link to='/'>
           <img src={Logo} alt="logo" />
+          </Link>
         </div>
       </nav>
-      {/* <div className="header-ham" style={{width:"100vw",display:"flex",justifyContent:"space-between",alignItems:"center"}} >
-          <div><img className="menubutton" alt="ham" src={ham} style={{opacity:0.4}} onClick={() => setShowDrawer(true)}></img></div>
-          
-        </div>
-        
-      <Drawer
-        placement="left"
-        visible={showDrawer}
-        onClose={() => setShowDrawer(false)}
-        width={"80%"}
-        // size={"large"}
-        className="drawer"
-        drawerStyle={{ backgroundColor: "#1a1a1a" }}
-        title={<div className="drawer-title">MENU</div>}
-        headerStyle={{ backgroundColor: "#1a1a1a", padding: 0, border: "none",marginBottom:"100px" }}
-      >
-        <Drawerroutes
-          {...props}
-          closeDrawer={() => setShowDrawer(false)}
-        ></Drawerroutes>
-      </Drawer> */}
+      
     </Navdiv>
+    <NavbarM>
+            <Logos>
+              <Link to='/'>
+              <img style={{ marginRight: "1rem" }} src={Logo} alt="company" />
+              <img src={LogoName} alt="company" />
+              </Link>
+            </Logos>
+            <Options>
+              <a
+                href="https://marketplace-ui-v2-3zmugzwln-muzix-frontend.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button
+                  style={{
+                    fontSize: "17px",
+                    fontWeight: "bold",
+                    backgroundColor: "transparent",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    fontFamily: "Rubik",
+                  }}
+                >
+                  <Item>mercado.studio</Item>
+                </button>
+              </a>
+              <Link to='/team' style={{textDecoration:"none"}}>
+                <button
+                  style={{
+                    fontSize: "17px",
+                    fontWeight: "bold",
+                    backgroundColor: "transparent",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    fontFamily: "Rubik",
+                    textDecoration:"none"
+                  }}
+                >
+                  
+                  <Item>Team and Advisors</Item>
+                 
+                </button>
+                </Link>
+              <a
+                href="mailto:grish@createprotocol.org"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button
+                  style={{
+                    fontSize: "17px",
+                    fontWeight: "bold",
+                    backgroundColor: "transparent",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    fontFamily: "Rubik",
+                  }}
+                >
+                  <Item>Contact</Item>
+                </button>
+              </a>
+
+              <a style={{ textDecoration: "none" }} href={Whitepaper} download>
+                <GradientButton style={{ width: "fit-content" }}>
+                  Download Whitepaper
+                </GradientButton>
+              </a>
+
+              
+            </Options>
+          </NavbarM>
+    </>
   );
 };
 

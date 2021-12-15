@@ -14,7 +14,7 @@ export const NavbarM = styled.div`
   justify-content: space-between;
   height: 2rem;
   align-items: center;
-  @media (max-width: 1200px) {
+  @media (max-width: 1000px) {
     display: none;
   }
 `;
