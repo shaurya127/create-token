@@ -9,7 +9,6 @@ import "../App.css";
 import Tokenomics from "./style/images/tokenomics image.png";
 import {Link,BrowserRouter as Router} from 'react-router-dom'
 import Whitepaper from "./CREATE PROTOCOL WHITE PAPER.pdf";
-// import { Link, animateScroll as scroll } from "react-scroll";
 
 import {
   Container,
@@ -20,10 +19,7 @@ import {
   Heading,
   H1,
   GradientButton,
-  Gradient,
-  Button,
-  GradientBorder,
-  GradientSpan,
+  
 } from "./style/Home";
 import Navbar from "./Navbar";
 import Finance from "./Finance";
