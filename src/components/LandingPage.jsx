@@ -58,26 +58,33 @@ return(
               }}
             >
               {/* <GradientButton>Buy SCRB token</GradientButton> */}
-              <GradientButton>Buy $CR8 token</GradientButton>
+              <a href="https://forms.gle/dLngDXF55WWyMZTu7"
+                target="_blank"
+                rel="noreferrer">
+              <GradientButton>Buy $CR8 token</GradientButton></a>
               <a
+                
                 href="https://marketplace-ui-v2-3zmugzwln-muzix-frontend.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
-
                 style={{textDecoration:"none"}}
               >
                 <GradientButton>Explore Marketplace </GradientButton>
               </a>
             </div>
+            {/* <Link to='/newsletter' style={{textDecoration:"none"}}> */}
             <h3
               style={{
                 opacity: "0.5",
                 borderBottom: "1px solid white",
                 fontSize: "1rem",
+                textDecoration:"none",
+                color:"white",
               }}
             >
               Subscribe to our newsletter
             </h3>
+            {/* </Link> */}
           </Heading>
     </Container>
     <About />

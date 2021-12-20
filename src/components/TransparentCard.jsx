@@ -20,7 +20,7 @@ const TransparentCard = (props) => {
       </div>
       <span
         style={{
-          fontSize: "1.2rem",
+          fontSize: "1rem",
           lineHeight: "36px",
         }}
       >
@@ -30,11 +30,21 @@ const TransparentCard = (props) => {
         style={{
           fontWeight:"normal",
           
-          fontSize: "0.9rem",
+          fontSize: ".9rem",
           lineHeight: "25px",
         }}
       >
         {props.designation}
+      </span>
+      <span
+        style={{
+          fontWeight:"normal",
+          
+          fontSize: ".9rem",
+          lineHeight: "25px",
+        }}
+      >
+        {props.designationtype}
       </span>
       <div style={{ display: "flex",marginTop:"0.5rem" }}>
         {/* <img src={fb} alt="social" /> */}

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import About from "./About";
-import CardContainer from "./TeamPage";
+import Teampage from "./TeamPage";
 import Footer from "./Footer2";
 import Logo from "./style/images/logo.svg";
 import LogoName from "./style/images/Logoname.png";
@@ -31,6 +31,7 @@ import Finance from "./Finance";
 import CDapp from "./CDapp";
 import Console from "./Console";
 import Partners from "./Partners";
+import Newsletter from './Newsletter';
 // import { Route } from "react-router-dom";
 
 const Home = () => {
@@ -45,7 +46,8 @@ const Home = () => {
 
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
-          <Route exact path="/team" element={<CardContainer />} />
+          <Route exact path="/team" element={<Teampage />} />
+          <Route exact path="/newsletter" element={<Newsletter />} />
         </Routes>
       
     </>

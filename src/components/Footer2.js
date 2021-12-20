@@ -2,7 +2,9 @@ import React from "react";
 import visa from "./style/images/Visa.svg";
 import bitcoin from "./style/images/Bitcoin.svg";
 import mastercard from "./style/images/Mastercard.svg";
-import 'font-awesome/css/font-awesome.min.css'
+import "font-awesome/css/font-awesome.min.css";
+import "./style/Newsletter.css";
+import Newsletter from "./Newsletter";
 
 import {
   Containertop,
@@ -11,22 +13,39 @@ import {
   Heading,
   ContainerInner,
 } from "./FooterStyles2";
+import {
+  Container,
+  Logos,
+  NavbarM,
+  Options,
+  Item,
+  H1,
+  GradientButton,
+  Gradient,
+  Button,
+  GradientBorder,
+  GradientSpan,
+} from "./style/Home";
 
 const Footer2 = () => {
   return (
-    <Containertop >
+    <Containertop>
+      <div
+        style={{
+          width: "100%",
+          paddingBottom: "1rem",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+        }}
+      >
+        <Newsletter/>
+      </div>
 
-        {/* Heading-logo of muzix */}
-      {/* <div style={{ width: "100%", paddingBottom: "1rem" }}>
-        <img src={logo} alt="logo-present" />
-      </div> */}
-
-      {/* horizontal-line */}
-     
-     
       <ContainerInner>
         <Row>
-          <Heading style={{color:"#FFFFFF"}}>Quick Links</Heading>
+          <Heading style={{ color: "#FFFFFF" }}>Quick Links</Heading>
 
           <FooterLink href="/">Home</FooterLink>
           <FooterLink href="/teampage">Products</FooterLink>
@@ -34,16 +53,14 @@ const Footer2 = () => {
           <FooterLink href="#">Features</FooterLink>
           <FooterLink href="#">Contact</FooterLink>
         </Row>
-       
-        <Row >
-          <Heading style={{color:"#FFFFFF"}}>Resources</Heading>
+
+        <Row>
+          <Heading style={{ color: "#FFFFFF" }}>Resources</Heading>
           <FooterLink href="/faq">Download Whitepaper</FooterLink>
           <FooterLink href="#">Smart Token</FooterLink>
           <FooterLink href="#">Blockchain Explorer</FooterLink>
           <FooterLink href="#">Crypto API</FooterLink>
           <FooterLink href="#">Interest</FooterLink>
-
-
         </Row>
         {/* <Row>
           <Heading>Company</Heading>
@@ -53,7 +70,10 @@ const Footer2 = () => {
           <FooterLink href="#">Help</FooterLink>
         </Row> */}
         <Row>
-          <Heading style={{fontSize:"32px" ,color:"#FFFFFF"}}>We accept following <br/>payment systems</Heading>
+          <Heading style={{ fontSize: "32px", color: "#FFFFFF" }}>
+            We accept following <br />
+            payment systems
+          </Heading>
           Coming Soon..
           {/* <div className="row" style={{display:"flex",flexDirection:"row",marginLeft:"1px",flexWrap:"wrap"}}>
                 <img src={visa} style={{width:"100px",height:"70px",margin:"10px"}}></img>
@@ -63,55 +83,76 @@ const Footer2 = () => {
           </div> */}
         </Row>
       </ContainerInner>
-    
-        <div>
-        
 
-        <div className="row" style={{display:"flex",flexDirection:"row",}}>
+      <div>
+        <div className="row" style={{ display: "flex", flexDirection: "row" }}>
+          <a
+            href="#"
+            class="text-white me-6"
+            style={{
+              margin: "8px",
+              fontSize: "30px",
+              color: "white",
+              padding: "20px",
+            }}
+          >
+            <i class="fa fa-facebook"></i>
+          </a>
 
+          <a
+            href="https://twitter.com/MuzixNFT"
+            class="text-white me-4"
+            style={{
+              margin: "8px",
+              fontSize: "30px",
+              color: "white",
+              padding: "20px",
+            }}
+          >
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/muzixtech/"
+            class="text-white me-4"
+            style={{
+              margin: "8px",
+              fontSize: "30px",
+              color: "white",
+              padding: "20px",
+            }}
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
 
-            <a
-              href="#"
-              class="text-white me-6"
-              style={{ margin: "8px", fontSize: "30px",color:"white",padding:"20px" }}
-            >
-              <i class="fa fa-facebook"></i>
-            </a>
-
-            <a
-              href="https://twitter.com/MuzixNFT"
-              class="text-white me-4"
-              style={{ margin: "8px", fontSize: "30px" ,color:"white",padding:"20px"}}
-            >
-              <i class="fa fa-twitter"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/company/muzixtech/"
-              class="text-white me-4"
-              style={{ margin: "8px", fontSize: "30px",color:"white",padding:"20px" }}
-            >
-              <i class="fa fa-linkedin"></i>
-            </a>
-
-            <a
-              href="https://instagram.com/muzix.nft?utm_medium=copy_link"
-              class="text-white me-4"
-              style={{ margin: "8px", fontSize: "30px",color:"white" ,padding:"20px"}}
-            >
-              <i class="fa fa-instagram"></i>
-            </a>
-            <a
-              href="https://instagram.com/muzix.nft?utm_medium=copy_link"
-              class="text-white me-4"
-              style={{ margin: "8px", fontSize: "30px",color:"white" ,padding:"20px"}}
-            >
-              <i class="fa fa-youtube"></i>
-            </a>
-          </div>
+          <a
+            href="https://instagram.com/muzix.nft?utm_medium=copy_link"
+            class="text-white me-4"
+            style={{
+              margin: "8px",
+              fontSize: "30px",
+              color: "white",
+              padding: "20px",
+            }}
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a
+            href="https://instagram.com/muzix.nft?utm_medium=copy_link"
+            class="text-white me-4"
+            style={{
+              margin: "8px",
+              fontSize: "30px",
+              color: "white",
+              padding: "20px",
+            }}
+          >
+            <i class="fa fa-youtube"></i>
+          </a>
         </div>
-        <h4 style={{ color: "#FFFFFF",textAlign:"left",}}>©2021 CR8 PROTOCOL. All rights reserved</h4>
-
-      
+      </div>
+      <h4 style={{ color: "#FFFFFF", textAlign: "left" }}>
+        ©2021 CR8 PROTOCOL. All rights reserved
+      </h4>
     </Containertop>
   );
 };

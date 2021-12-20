@@ -4,8 +4,9 @@ export const CardMain = styled.div`
 font-family:"Century Gothic";
 font-style: normal;
 font-weight: bold;
-  width: 14rem;
-  height: 18rem;
+text-align:center;
+  width: 12rem;
+  height: 16rem;
   background: linear-gradient(
     126.21deg,
     #9a31ed 0%,
@@ -25,8 +26,9 @@ export const CardPlain = styled.div`
 font-family:"Century Gothic";
 font-style: normal;
 font-weight: bold;
-  width: 14rem;
-  height: 18rem;
+  width: 12rem;
+  text-align:center;
+  height: 16rem;
   border: 1px solid white;
   border-opacity: 0.5;
   border-radius: 20px;
